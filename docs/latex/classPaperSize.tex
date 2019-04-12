@@ -1,0 +1,1785 @@
+\hypertarget{classPaperSize}{}\section{Paper\+Size Class Reference}
+\label{classPaperSize}\index{Paper\+Size@{Paper\+Size}}
+
+
+The \mbox{\hyperlink{classPaperSize}{Paper\+Size}} classgives values for width, height plus a simple Q\+String definition.  
+
+
+
+
+{\ttfamily \#include $<$papersize.\+h$>$}
+
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classPaperSize_aa57c54d50016f1c46c553e479bc7d4da}\label{classPaperSize_aa57c54d50016f1c46c553e479bc7d4da}} 
+enum {\bfseries Layout} \{ {\bfseries Landscape}, 
+{\bfseries Portrait}
+ \}
+\item 
+enum \mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8}{Type}} \{ \newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6f5639cd3e9ed6513363629774c23527}{I\+S\+O\+\_\+4\+A0}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a26c62cf29a78d267e3c0b7a614a85966}{I\+S\+O\+\_\+2\+A0}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a45628b104e9380bed4ca994215a62a5d}{I\+S\+O\+\_\+\+A0}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a5c27d4ed49a774de35db88e273846987}{I\+S\+O\+\_\+\+A0\+\_\+\+Plus}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a8aabc0a24f36d8ace90a377d63d361aa}{I\+S\+O\+\_\+\+A1}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a43ce27cfc7056e4b1987b82b33213854}{I\+S\+O\+\_\+\+A1\+\_\+\+Plus}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad186df7586a6192c9d86a559e8ea43e4}{I\+S\+O\+\_\+\+A2}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8afa144a3ac8baa66078dcff0daebb5fe4}{I\+S\+O\+\_\+\+A3}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aaaceaee2a71db512493938dec4bd10e4}{I\+S\+O\+\_\+\+A3\+\_\+\+Plus}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad02beaeac18a6e48902dfcfd5eefeb78}{I\+S\+O\+\_\+\+A4}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aee2bca151104da99fc620d6ad9b295e9}{I\+S\+O\+\_\+\+A5}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aef79dcdd3e503c80de9ef2d82877fcef}{I\+S\+O\+\_\+\+A6}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a824364bad5c74315405da46d168c9c85}{I\+S\+O\+\_\+\+A7}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a176ef2c7ab1365bde07092b315b14daa}{I\+S\+O\+\_\+\+A8}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a7da8fad136c83ab7502e582564a88649}{I\+S\+O\+\_\+\+A9}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a5a65e9ea1e2b87cd2fe08b39f817f6cf}{I\+S\+O\+\_\+\+A10}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a5ce26458bf4c4f26a3f7e24d0f545720}{I\+S\+O\+\_\+\+B0}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ab9ef9eb2195bf818d5767382d1988a2f}{I\+S\+O\+\_\+\+B1}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a79f562814f25e641b995b9328c12c09e}{I\+S\+O\+\_\+\+B2}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a040de2b8088b1e982d9d68a5dc7f689b}{I\+S\+O\+\_\+\+B3}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af26d6668295ff509fa46b082b9b3f0a6}{I\+S\+O\+\_\+\+B4}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac46aeb9175902c4016e9a2867638845d}{I\+S\+O\+\_\+\+B5}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a704fea222ca5e3eb709cda6b83e21ff4}{I\+S\+O\+\_\+\+B6}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a86e71e965ab2f921c3fce449a3f76bd0}{I\+S\+O\+\_\+\+B7}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae5f76dd9015e2a08d6e9a2cf0988c005}{I\+S\+O\+\_\+\+B8}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9714e10972fd162b7b92c5dea4739d30}{I\+S\+O\+\_\+\+B9}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a36dc1fa2c66e63e7ee2a53b0af841a99}{I\+S\+O\+\_\+\+B10}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a3e7a26834549180c02c3a03b5bf5d7a7}{I\+S\+O\+\_\+\+C0}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a61655d86c60d51ddf7fef70cc7e8d73f}{I\+S\+O\+\_\+\+C1}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a560a9af05033b0c6e410c780ddea32d6}{I\+S\+O\+\_\+\+C2}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9f3d1b5a7904cae2ea213d1d7f4e248e}{I\+S\+O\+\_\+\+C3}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2a2cbe529e2af2568da4b7188797d016}{I\+S\+O\+\_\+\+C4}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a29433392557db86d27e0d60370c08d9c}{I\+S\+O\+\_\+\+C5}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a1fc187292c353e208798be6067ff2d89}{I\+S\+O\+\_\+\+C6}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a1d21128e2cfc22984fa8109c8f6bbe5d}{I\+S\+O\+\_\+\+C7}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9bb29d676432723dc71ff825efdd1144}{I\+S\+O\+\_\+\+C8}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af0246ecb91f9efe410ef3f65e8df0fab}{I\+S\+O\+\_\+\+C9}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac7a2ed219df052c065cc00494a199ba2}{I\+S\+O\+\_\+\+C10}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a10eacaf18061bad13a51f95e35a21845}{U\+S\+\_\+\+Half\+\_\+\+Letter}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a07573b58a0e646d44c8b6216597951a7}{U\+S\+\_\+\+Letter}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9e9ce083f03a299a2a60d2c6ba592b5e}{U\+S\+\_\+\+Legal}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a4354bfa1e8e453b0ca9d5185b425e6b0}{U\+S\+\_\+\+Junior\+\_\+\+Legal}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2fb3247669de1988ae99013624a68456}{U\+S\+\_\+\+Ledger}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2d88dc52072877868b9befc2f2cb1748}{U\+S\+\_\+\+Tabloid}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a060c53c1b66ed42556050ad766dcf9a1}{U\+S\+\_\+\+Gov\+\_\+\+Letter}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae1af2f5bc5ff0b0f7bec6977e8d3a73d}{U\+S\+\_\+\+Gov\+\_\+\+Legal}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8afbfdb190c47d5fc4ae223399214beca0}{U\+S\+\_\+\+A\+N\+S\+I\+\_\+A}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa01b4aa2041289c66caedb9f5e4b4415}{U\+S\+\_\+\+A\+N\+S\+I\+\_\+B}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a4bdc4a2cc6a1cccc94aaae62daa5b735}{U\+S\+\_\+\+A\+N\+S\+I\+\_\+C}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a83141f881688a18e0c6a4abce235bd43}{U\+S\+\_\+\+A\+N\+S\+I\+\_\+D}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae34590a78bf25e6ba7bc2b3b4d7c3e1e}{U\+S\+\_\+\+A\+N\+S\+I\+\_\+E}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aac0be7cbbdda9779d36a190f7ca0edb6}{U\+S\+\_\+\+Arch\+\_\+A}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a44f20132c2c2b8fa0aca88460b49dc78}{U\+S\+\_\+\+Arch\+\_\+B}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad2abda3038a49ee07a330204622d963b}{U\+S\+\_\+\+Arch\+\_\+C}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac9c6ddd9acd772751f7272f11d4f79a4}{U\+S\+\_\+\+Arch\+\_\+D}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a1c35295ebfd63c2b0b157532bff91e18}{U\+S\+\_\+\+Arch\+\_\+E}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aebe8620889f36b3e0568f902524c3601}{U\+S\+\_\+\+Arch\+\_\+\+E1}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a324ec6deb44ad836e92bbc92d85c397c}{U\+S\+\_\+\+Arch\+\_\+\+E2}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae06d7bb0c8ffc53d103870c3be2bc747}{U\+S\+\_\+\+Arch\+\_\+\+E3}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6bd95a7eabac40a91ff2305c3d8b5357}{J\+I\+S\+\_\+\+B0}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aec771d7147fdee3a2f12ed9eb89dfa14}{J\+I\+S\+\_\+\+B1}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0706884ad70274aee544543e2f5c4fb2}{J\+I\+S\+\_\+\+B2}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae614af079b2053a1c9360f6cf48733b5}{J\+I\+S\+\_\+\+B3}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa5b392afe719b478da684307d8813b95}{J\+I\+S\+\_\+\+B4}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a976abd4d0cacade46d497f1a4f728531}{J\+I\+S\+\_\+\+B5}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac97f8eb6d61b22e23e91eacbba4c7473}{J\+I\+S\+\_\+\+B6}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8afbd541d4207ff72b99053b89b7501966}{J\+I\+S\+\_\+\+B7}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a8d3adf8f00372339626226c6250b8ce3}{J\+I\+S\+\_\+\+B8}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a37a8e4b887abf29bc6e5c686a8b8fe10}{J\+I\+S\+\_\+\+B9}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a703019e4e31ed05153ea4d8c1919931f}{J\+I\+S\+\_\+\+B10}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac60e13f85a812fadb011a71b805a433b}{J\+I\+S\+\_\+\+B11}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a91a27817ebef9f36d7715b1adc6e7da4}{J\+I\+S\+\_\+\+B12}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af32d0b503e1d6f0610a143c9ffe76ff0}{J\+I\+S\+\_\+\+A\+\_\+ban}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a771189a2309205ed339bad3b59941bf6}{J\+I\+S\+\_\+\+B\+\_\+ban}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a798f9e2612a69f547b3477a2da1913b0}{Chinese\+\_\+\+D0}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a1491492d5663f2c89894b365651cf67a}{Chinese\+\_\+\+D1}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6209b56328d7d19c3c34e6e340635a32}{Chinese\+\_\+\+D2}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac9dcd1d0459f9c881bc38b24f01c5d37}{Chinese\+\_\+\+D3}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9c5e9d7ab1a9f094e4660e70bd526d62}{Chinese\+\_\+\+D4}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0bfc308015b92c5dd296ed8bdc5976f9}{Chinese\+\_\+\+D5}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a5d23fd3f81d747de371362589084cf45}{Chinese\+\_\+\+D6}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9fbd34464a6279551ea84012230e9a97}{Chinese\+\_\+\+R\+D0}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a629b23925e58e2f6962f568c116e5b68}{Chinese\+\_\+\+R\+D1}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6a4bc18dd5e927bf30f436ebf6a74814}{Chinese\+\_\+\+R\+D2}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6fbd3cc72ed9f0473151a62ee937e2df}{Chinese\+\_\+\+R\+D3}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a55d8e065a6f5606c33c66281f1872c8d}{Chinese\+\_\+\+R\+D4}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad028db8ef1441b90436e26deb59a83c1}{Chinese\+\_\+\+R\+D5}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a90d01cd7db7d7ab9812a2629d63d993f}{Chinese\+\_\+\+R\+D6}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a16c516f2b5c0a63b29e543633af13514}{Canadian\+\_\+\+P1}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0864521dc695678b2e280f38158dbb7a}{Canadian\+\_\+\+P2}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a5af91a15cb80919fe16da5f2362ffe1e}{Canadian\+\_\+\+P3}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6a462215487a5057923207bff4f4dd4f}{Canadian\+\_\+\+P4}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac734b8861dcc08393aba9cb180334388}{Canadian\+\_\+\+P5}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a78b1cb8cf1b0a3c93aa2570191c309e2}{Canadian\+\_\+\+P6}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a29b3811b16382403cb07a56debd0f7d7}{Japanese\+\_\+\+AB}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad4bff99ae81464027a33673ea8267629}{Japanese\+\_\+\+B40}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aba2f707d4c9f6d3cbee8a816c953d45d}{Japanese\+\_\+\+Shikisen}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa46feea2a2badb4eb0932a8c584470af}{Japanese\+\_\+\+A\+\_\+\+Koban}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a4e0b0bcc7e72e350bfe4a8eca736271e}{Japanese\+\_\+\+B\+\_\+\+Koban}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a884595f0de3c35e57dbea1b8660f019e}{Japanese\+\_\+\+Shirokuban\+\_\+4}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae9022597519da34ecc8ad75d89bfbbc5}{Japanese\+\_\+\+Shirokuban\+\_\+5}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a582958f3581ec153d2e4759d619f317a}{Japanese\+\_\+\+Shirokuban\+\_\+6}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad374588c5092a4825f3942ee09cd783d}{Japanese\+\_\+\+Kiku\+\_\+4}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae2efe2d5abf1678577095383a2db7533}{Japanese\+\_\+\+Kiku\+\_\+5}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af091095f7b18d6d12b359702265e4cc7}{Japanese\+\_\+\+Zenshi}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2067efc0e610a205501f20241d67a7bd}{Japanese\+\_\+\+Han\+\_\+\+Kiri}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af09e089adbfc5689a970b732daf20b07}{Japanese\+\_\+\+Yatsu\+\_\+giri}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a26bb8483aa4ef1a57c1b92dd7e495cf9}{Japanese\+\_\+\+Matsu\+\_\+giri}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8add7c43df09c359bc21d9cada51dda7da}{Japanese\+\_\+\+Yotsu\+\_\+giri}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a31fa535c75cdbfa4f5ba1a3dfe8c28d4}{Japanese\+\_\+\+Dai\+\_\+\+Kyabine}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a95e4910e48d92be271798099e42c08cb}{Japanese\+\_\+\+Kyabine}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9c9329f26427f97e249a8307b81ea874}{Japanese\+\_\+\+Nimai\+\_\+gake}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae8285a537933fc3e425976906c84bfec}{Japanese\+\_\+\+Potsutokaado}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a696f71573c8c35bbcbeb67a8d1f879f8}{Japanese\+\_\+\+Dai\+\_\+\+Tefuda}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a10391ab6bddd0d49a8ac4f1cad53ec64}{Japanese\+\_\+\+Saabisu}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad823937bc57cb19b964ef48964d4f024}{Japanese\+\_\+\+Tefuda}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a5982e992d19d2c52a33dd5a806026a43}{Japanese\+\_\+\+Dai\+\_\+meishi}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a972ae4a0b583d3e1f0662b83e141d7c1}{Japanese\+\_\+\+Kokusai\+\_\+ban}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad7744f7d1b8163ebeb4904f7507a81e7}{Japanese\+\_\+\+Hyoujun\+\_\+gata}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a168f4a896dbcb5f56fb09772ecb76bef}{Japanese\+\_\+\+Oo\+\_\+gata}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a20232fc4624ee9a2c50f92d17bededce}{Japanese\+\_\+\+Chuu\+\_\+gata}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0092160e2bc2694cf3123b005de84cd6}{Japanese\+\_\+\+Ko\+\_\+gata}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa2364be179ccf8c1cad4520000d63932}{Japanese\+\_\+\+Ippitsu\+\_\+sen}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a29e2f82f51f94a97d83bd4d92351bbd4}{Japanese\+\_\+\+Hanshi}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af82cb866a34d677af20eb79c869f74e9}{Japanese\+\_\+\+Mino}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a745352529bd91f87e16ab192407967af}{Japanese\+\_\+\+Oohousho}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a04075ae923e114c96107482864e33502}{Japanese\+\_\+\+Chuuhousho}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a596b52ff1b0328a5c6efcc2d9018f4e2}{Japanese\+\_\+\+Kohousho}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a4cbb477ed390e865e5d1eb4ac17f8ee9}{Japanese\+\_\+\+Nisho\+\_\+no\+\_\+uchi}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2aaa68bf5ee591c09f0184e0ae08a398}{Japanese\+\_\+\+Kusuma}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a1834a9abd9955ec813285d7bacf00dac}{Japanese\+\_\+\+Envelope\+\_\+\+Chou1}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9021b2138bb94fc8877a1a1355c2bbe0}{J\+I\+S\+\_\+\+Envelope\+\_\+\+Chou2}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6c115875b4f6919f4d9aeac1a3ce7ce0}{J\+I\+S\+\_\+\+Envelope\+\_\+\+Chou3}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa49c364b1d6c10b6bd610a2655e1a0c2}{Japanese\+\_\+\+Envelope\+\_\+\+Chou31}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8abf2a24bd76bbfd62c75bd0ea66cedea8}{Japanese\+\_\+\+Envelope\+\_\+\+Chou30}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ab5decb8828b63ddf3a702acfd5c2bb52}{Japanese\+\_\+\+Envelope\+\_\+\+Chou40}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a8b4724b6cd437d169a5e09d0ebaf558b}{J\+I\+S\+\_\+\+Envelope\+\_\+\+Chou4}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a33095f067ffbaaf6bedd5e94209867eb}{Japanese\+\_\+\+Envelope\+\_\+\+Kaku\+A3}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a87c7f832ab12e9182ed6b5c0a343784b}{Japanese\+\_\+\+Envelope\+\_\+\+Kaku0}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ab5d91a463b144e32547170d0de858c40}{Japanese\+\_\+\+Envelope\+\_\+\+Kaku1}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa70c1b470ed16a39877c8efa914be916}{J\+I\+S\+\_\+\+Envelope\+\_\+\+Kaku2}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a8c36c6511d9f2e662f6019c37cceef52}{Japanese\+\_\+\+Envelope\+\_\+\+Kaku\+\_\+\+Kokusai\+A4}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac0954be2510f7f5b81f921ad9c7070c7}{J\+I\+S\+\_\+\+Kaku3}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0fbfc085e83a285e157b7bbebc4bd220}{J\+I\+S\+\_\+\+Kaku4}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a80317682aef4421d7ce582dae8b1cc4a}{J\+I\+S\+\_\+\+Kaku5}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9ab1d5a2d1b0951ac2cd27d1233e8646}{J\+I\+S\+\_\+\+Kaku6}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2a6aac9afc49af89edf86e0dbc18f3dd}{J\+I\+S\+\_\+\+Kaku7}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a10e7260e5111296e16d07bdb8a81d119}{J\+I\+S\+\_\+\+Kaku8}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad398cbaceb524a71ed894c9ca53eede7}{Japanese\+\_\+\+Envelope\+\_\+\+You0}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad5c7985713ae7bde2b4f46867d93e07e}{J\+I\+S\+\_\+\+You0}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a39dc4093662abb404b08738219c3aa09}{J\+I\+S\+\_\+\+You1}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a03d0e2eeb5d28694a02ba7566335ebaa}{J\+I\+S\+\_\+\+You2}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa16cbafc5357a7dc0da5ad9cce03b981}{J\+I\+S\+\_\+\+You3}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0ec1388eae7082a80866a83c7f828e0f}{J\+I\+S\+\_\+\+You4}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae4ee68c3f947cd0edb12f2510764dae0}{J\+I\+S\+\_\+\+You5}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2ff891b8e1a1593a2741d352289b7706}{J\+I\+S\+\_\+\+You6}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a647791c3612c9c2d7c92313d0e3dd6a1}{J\+I\+S\+\_\+\+You7}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a052a0c5343a219722b29b0b47eff780c}{Columbian\+\_\+\+Carta}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a13d5df8827c65ef0ad735e316d116380}{Columbian\+\_\+\+Extra\+\_\+\+Tabloide}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aff46f308bddd9955a0a1c2e3ca1abbd1}{Columbian\+\_\+\+Oficio}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9272878da1fd044e86ab7184628889d0}{Columbian\+\_\+1\+\_\+8\+\_\+\+Pliego}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8add4d805f2747a32a0516916fca2920d4}{Columbian\+\_\+1\+\_\+4\+\_\+\+Pliego}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad57355307d7beb98b350ad6d79c69311}{Columbian\+\_\+1\+\_\+2\+\_\+\+Pliego}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aad57686f4c2da8cad02f310f48985844}{Columbian\+\_\+\+Pliego}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa1e259ca3a0380c2ac3988ba6df3415e}{French\+\_\+\+Cloche}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a26b2b2fbdfbc9f5637fe86891c8a2db6}{French\+\_\+\+Pot\+\_\+ecolier}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a189635448bf7cec6a6a2d6d6c7844b25}{French\+\_\+\+Telliere}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a71252b550f66b03ca45e2b25ca39ad3a}{French\+\_\+\+Couronne\+\_\+ecriture}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af1cf5a15c50da619767664ba4ddd158b}{French\+\_\+\+Couronne\+\_\+edition}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0c5e1b9dbc12ae710bca17df4e1605d4}{French\+\_\+\+Roberto}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8afdc26ea3c08479e7480e3827699eea80}{French\+\_\+\+Ecu}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a099b482905e4515a8e7cc095c842b28b}{French\+\_\+\+Coquille}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af6bc9783196b74179755b15e7bc7ad32}{French\+\_\+\+Carre}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af225f3cb6a278f2b76544ea20d8a9319}{French\+\_\+\+Cavalier}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a004cef946e106c5e47c4d2d4587dea9b}{French\+\_\+\+Demi\+\_\+raisin}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2fd853194be9580adcdb7d3cc52f2e07}{French\+\_\+\+Raisin}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac0a7431272d8a6c106cc6d17556e3d64}{French\+\_\+\+Double\+\_\+\+Raisin}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ab8622f561633b6e7ce95d18394f5827c}{French\+\_\+\+Jesus}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a96fa834bd737f0059eb6a7d27964d043}{French\+\_\+\+Soliel}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0d20f58b52422030dc886f6f08e5686d}{French\+\_\+\+Colombier\+\_\+\+Affiche}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8abf1434e9a53caf4e891365e714611d70}{French\+\_\+\+Colombier\+\_\+\+Commercial}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae091a1b7281c362df896cb6640831741}{French\+\_\+\+Petit\+\_\+\+Aigle}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6083ac53ad6e4aefa8fd67996895b163}{French\+\_\+\+Grand\+\_\+\+Aigle}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9203fd0d541babaad87608eb2492739c}{French\+\_\+\+Grand\+\_\+\+Monde}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a68676358b3fcc3bb108080dd5b213c58}{French\+\_\+\+Univers}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ab6fab9c5b5ba7aa6d385430cbbdd7ecc}{R\+A\+W\+\_\+\+R\+A0}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0aa8b4ef9857a96e66ecd2746e473e45}{R\+A\+W\+\_\+\+R\+A1}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0200dab8ffaf0cd3789e8b642b9a2e5b}{R\+A\+W\+\_\+\+R\+A2}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a63f15cbc73a18c10ddb35393143ff3c6}{R\+A\+W\+\_\+\+R\+A3}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a47e66a973a868cd497c1642b3d0132d2}{R\+A\+W\+\_\+\+R\+A4}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6a7d9d771d71651ade308e1698d25891}{R\+A\+W\+\_\+\+S\+R\+A0}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aeafc70a8fc747b1a7ffbfea85442993f}{R\+A\+W\+\_\+\+S\+R\+A1}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9633efca5de2a089b6be8bbadc1c17ec}{R\+A\+W\+\_\+\+S\+R\+A2}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ab8c00c1e596fb6a3be30ed68832918c3}{R\+A\+W\+\_\+\+S\+R\+A3}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ab5a37b8fe61409ef7cf26c7c0b694db8}{R\+A\+W\+\_\+\+S\+R\+A4}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0298d8e7ef7b8f0d8a59abc7cdaa44af}{R\+A\+W\+\_\+\+S\+R\+A1\+\_\+\+Plus}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a157b69a7d2861dc8ca5544e4d9948494}{R\+A\+W\+\_\+\+S\+R\+A2\+\_\+\+Plus}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ada51b3b01cc48fb5e04afa1099515873}{R\+A\+W\+\_\+\+S\+R\+A3\+\_\+\+Plus}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad77e75430ad576f04f570cd7c921d3c4}{R\+A\+W\+\_\+\+S\+R\+A3\+\_\+\+Plus\+\_\+\+Plus}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af7c98cc29de32abc4923cad6d4974e76}{R\+A\+W\+\_\+\+A0U}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a86299dd59301b77307e344b3a799bc67}{R\+A\+W\+\_\+\+A1U}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a55f0f23a6a1e2ec1ed79d545f9475a3a}{R\+A\+W\+\_\+\+A2U}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aeac2684396413a3ab4d2144acd56ea76}{R\+A\+W\+\_\+\+A3U}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af1241dd0c832a3c61ec8483a7e48a2b2}{R\+A\+W\+\_\+\+A4U}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa805a971a2b1c7f4794be9a9d0a572f6}{British\+\_\+\+Dukes}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a765a5abbfa3399cc9ba9a1ba4201c09d}{British\+\_\+\+Foolscap}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8adae0e1d0986e2b4c3a6dbe93f7810d63}{British\+\_\+\+Imperial}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a7e8b0f845a4f4ac1347f1f9ff26fc568}{British\+\_\+\+Kings}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a8b860bc2231aa286464c0c6e2a548745}{British\+\_\+\+Quarto}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a28ab70e3c77179b8f0726c732c201a10}{Imperial\+\_\+\+Antiquarian}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a64245dcf24dd777889c467616d8bfdaa}{Imperial\+\_\+\+Atlas}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0a4a7a780c2597002b1d1d8b3846eed6}{Imperial\+\_\+\+Brief}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a159e342045df09c5599efce2ac3fe006}{Imperial\+\_\+\+Broadsheet}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a04e4f33bb8739cb7afe08139fab5a154}{Imperial\+\_\+\+Cartridge}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a37735030296bd46b1ed2803d624ede18}{Imperial\+\_\+\+Columbier}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8abf9ffe649ab825d8024126c96f59098a}{Imperial\+\_\+\+Copy\+\_\+\+Draught}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8abdf27324df8b74572ef403b8415eeabf}{Imperial\+\_\+\+Crown}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a4f1d4e3bbf1eeb4c45d8a5f0dd1970de}{Imperial\+\_\+\+Demy}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae8155475ef65c0f20f735c021f1ff70f}{Imperial\+\_\+\+Double\+\_\+\+Demy}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac0278e286839e051e352a0d63b6ee18d}{Imperial\+\_\+\+Quad\+\_\+\+Demy}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8afd80ca3c4b60f861249a0ae4a3010ba9}{Imperial\+\_\+\+Elephant}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9a1e71714ddaa67db2916ac0f04134d8}{Imperial\+\_\+\+Double\+\_\+\+Elephant}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a090a7818a38c5d9f224988a4119da6d5}{Imperial\+\_\+\+Emperor}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae9513b25f2860a9a5eb77c93e7c98e90}{Imperial\+\_\+\+Foolscap}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa00589b672cd15841f4d08c5c98c5008}{Imperial\+\_\+\+Small\+\_\+\+Foolscap}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2bdc973dd838f1c4afdec5207377067c}{Imperial\+\_\+\+Grand\+\_\+\+Eagle}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a81cd89c6dde11ad31b47c3e752b9808b}{Imperial\+\_\+\+Imperial}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2e1a12ba28c9bf7d684618c82cbe8560}{Imperial\+\_\+\+Medium}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a7faffaefed0682f3cdfc7bbaab9d488d}{Imperial\+\_\+\+Monarch}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aee9a5f5681b905527c9a46236222c176}{Imperial\+\_\+\+Post}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae356ea1df3e0072f562c82d8891aea95}{Imperial\+\_\+\+Sheet\+\_\+\+Half\+\_\+\+Post}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af3a89ef8af1e704307ed0c2f60e4259f}{Imperial\+\_\+\+Pinched\+\_\+\+Post}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6cae46544cb4f15fd32ce2d3e096ef8a}{Imperial\+\_\+\+Large\+\_\+\+Post}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a720ad4ec90d451b55b895165c94e0f84}{Imperial\+\_\+\+Double\+\_\+\+Large\+\_\+\+Post}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a06dc90badbac72373f2dc53cb741779e}{Imperial\+\_\+\+Double\+\_\+\+Post}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad7248d4d56298d599b04baa8ff6e76e9}{Imperial\+\_\+\+Pott}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8adedcddcefdfea7d5718d7cf06eb5cdd7}{Imperial\+\_\+\+Princess}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ab4b2b0c1f9076b688275288b72b8b184}{Imperial\+\_\+\+Quarto}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a4437a127d151ac598c815257c833302f}{Imperial\+\_\+\+Royal}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a97d402bf0088b33afc4cfe6d4f8527d8}{Imperial\+\_\+\+Super\+\_\+\+Royal}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2bd0b96025637e002b477d5a5f2ec322}{Transitional\+\_\+\+P\+A0}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a88606d080886767a81807a8d526e2433}{Transitional\+\_\+\+P\+A1}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a4f90f631be0e21cb9259bc500e94a69a}{Transitional\+\_\+\+P\+A2}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af0efbf1a2c22d39ddf4e5865ff237d29}{Transitional\+\_\+\+P\+A3}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8abed8ac939d25a2b158a925a65253a3c8}{Transitional\+\_\+\+P\+A4}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a780829099bf6474974ee04dde592d594}{Transitional\+\_\+\+P\+A5}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2752e3b82aaeec7e6060e94243e42c3f}{Transitional\+\_\+\+P\+A6}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2bdba121892307bff58ddc6d2442ee73}{Transitional\+\_\+\+P\+A7}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af9fc7997d31748b859b5470c694d7ec0}{Transitional\+\_\+\+P\+A8}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2142eb79e096a05eefef4b9764c2efa8}{Transitional\+\_\+\+P\+A9}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6332f9d43a137812e259c93269dcd567}{Transitional\+\_\+\+P\+A10}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a138e364f639fe9407b20b0e088019df3}{Transitional\+\_\+\+F0}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a7ec8b8a470442d493d2aadc8aad80cc3}{Transitional\+\_\+\+F1}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa9bde4b5a87e381747730ad8292280dd}{Transitional\+\_\+\+F2}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a01f99e697b8f81a054808682e4e95775}{Transitional\+\_\+\+F3}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ab9f83d5e894e798fdbc99ad79350cc7f}{Transitional\+\_\+\+F4}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a8ec0c643ef422b298e0c4b7ef6386065}{Transitional\+\_\+\+F5}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae07f0506ae5d229a99900655f5c31b5f}{Transitional\+\_\+\+F6}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aaff12974d482eeab88eecdcc84d930ab}{Transitional\+\_\+\+F7}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0b0d291c37dd083ee5c4952284b8c10e}{Transitional\+\_\+\+F8}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a08c65697a3afd5d74498ae1f518b1988}{Transitional\+\_\+\+F9}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a32922c81616da9c5fbe9c28b6ebae1db}{Transitional\+\_\+\+F10}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0e192da3bfe3fc7e6c4b4e0bd8829c4a}{I\+S\+O\+\_\+\+Envelope\+\_\+\+DL}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a42fc415a676b617157b1db20737b4098}{I\+S\+O\+\_\+\+Envelope\+\_\+\+B4}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a887dc48104a63686d83a7565ead66fa3}{I\+S\+O\+\_\+\+Envelope\+\_\+\+B5}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6a99dc826bb1cd07356f3f0f943fe737}{I\+S\+O\+\_\+\+Envelope\+\_\+\+B6}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a5154ebb19b30a49fe75f8b9741985087}{I\+S\+O\+\_\+\+Envelope\+\_\+\+C0}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aaba3f3a5fde71a528278ca295ad153b1}{I\+S\+O\+\_\+\+Envelope\+\_\+\+C1}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6117302c193e7f2f6a4ca34163bbf2d6}{I\+S\+O\+\_\+\+Envelope\+\_\+\+C2}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a4a16783eecdc83d675598bdd53d46712}{I\+S\+O\+\_\+\+Envelope\+\_\+\+C3}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac944fff5c14f1c6d8359f75f9efb7ee6}{I\+S\+O\+\_\+\+Envelope\+\_\+\+C4}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a78e238dd968ff66571333aa7fe1e2d83}{I\+S\+O\+\_\+\+Envelope\+\_\+\+C5}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae9da7f965fd5e7c240aa1d98655974d0}{I\+S\+O\+\_\+\+Envelope\+\_\+\+C6\+\_\+\+C5}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a663490a48488ee00e93420d0f804f3a0}{I\+S\+O\+\_\+\+Envelope\+\_\+\+C6}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aec145f6a0a625c085bf462fa08820937}{I\+S\+O\+\_\+\+Envelope\+\_\+\+C7\+\_\+\+C6}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a4a83b2a717f229fa7c202cad1c9ab58d}{I\+S\+O\+\_\+\+Envelope\+\_\+\+C7}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a07bdaf217accaffa8ba8ba23dc4017b2}{I\+S\+O\+\_\+\+Envelope\+\_\+\+E4}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8accb02713d7c98c4d82aa2c2823daee21}{U\+S\+\_\+\+Envelope\+\_\+6\+\_\+14}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac60bb0b22cf1033399e8f25ba5856dda}{U\+S\+\_\+\+Envelope\+\_\+6\+\_\+34}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aaef18f73bb2de0eda9d9f67d6fea0670}{U\+S\+\_\+\+Envelope\+\_\+7}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a405ad2ca134fda6ce7a348502b06003d}{U\+S\+\_\+\+Envelope\+\_\+7\+\_\+34\+\_\+\+Monarch}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa3acf20fd97da8be3d362e36552800c8}{U\+S\+\_\+\+Envelope\+\_\+8\+\_\+58}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0a879bc77d7b304f9e4206cce768ec03}{U\+S\+\_\+\+Envelope\+\_\+9}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aabd78b5a97637b9e805a5a18c59dfa05}{U\+S\+\_\+\+Envelope\+\_\+10}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a896527d3ca703b7a816fc29e9746511f}{U\+S\+\_\+\+Envelope\+\_\+11}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8abadcbc7140a273c1a75b04722dc8da5c}{U\+S\+\_\+\+Envelope\+\_\+12}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a749cbec96dcb23e9d7482de7ae88057a}{U\+S\+\_\+\+Envelope\+\_\+14}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a1aed4c9a5cb4de8d26b5b94fac8f6b12}{U\+S\+\_\+\+Envelope\+\_\+16}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8acc11e6aaf50c542f9f1869d483e4d851}{U\+S\+\_\+\+Envelope\+\_\+\+A1}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af9071871ab0b49edbbc0c4e35ac58add}{U\+S\+\_\+\+Envelope\+\_\+\+A2\+\_\+\+Lady\+\_\+\+Grey}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0212b281486a9290bbb8fd2241a91f77}{U\+S\+\_\+\+Envelope\+\_\+\+A4}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a61609e63d016bf01b4d8a58ce0cd33d3}{U\+S\+\_\+\+Envelope\+\_\+\+A6\+\_\+\+Thompsons\+\_\+\+Standard}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aec9461e0ad6c675822af0245125db21c}{U\+S\+\_\+\+Envelope\+\_\+\+A7\+\_\+\+Besselheim}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a808217319739f000da2e1b0cc19d5bf8}{U\+S\+\_\+\+Envelope\+\_\+\+A8\+\_\+\+Carrs}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a68be24ca8a025777ee19147ca287a1cd}{U\+S\+\_\+\+Envelope\+\_\+\+A9\+\_\+\+Diplomat}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a525a6fab045860fc93da77316528e95e}{U\+S\+\_\+\+Envelope\+\_\+\+A10\+\_\+\+Willow}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa6df8ef333e7cae1893fea6b9bb1e3d8}{U\+S\+\_\+\+Envelope\+\_\+\+A\+\_\+\+Long}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8add02f7483c3c36a129368330b646da76}{U\+S\+\_\+\+Envelope\+\_\+1}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac34900869929a1215408400549d30037}{U\+S\+\_\+\+Envelope\+\_\+1\+\_\+34}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a14290dc05ea61aac7e2abbe8e78ae5d1}{U\+S\+\_\+\+Envelope\+\_\+3}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa00b4876da3b77cd6a0667ce10cf9590}{U\+S\+\_\+\+Envelope\+\_\+6}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae6c765bcc7fe8c1ff1dc0f17683c730c}{U\+S\+\_\+\+Envelope\+\_\+8}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a5718a4a25e1e9b1011c0ae89588641bb}{U\+S\+\_\+\+Envelope\+\_\+9\+\_\+34}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a5164221ad87f32b98239b44b9951c3b6}{U\+S\+\_\+\+Envelope\+\_\+10\+\_\+12}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aae0c78b0df7261ec140a512ddbdcd5ad}{U\+S\+\_\+\+Envelope\+\_\+12\+\_\+12}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac4e21a94ee8ebd7d89fd3419d17806d6}{U\+S\+\_\+\+Envelope\+\_\+13\+\_\+12}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8afb9a04a8fa5292118ceb095f28a76067}{U\+S\+\_\+\+Envelope\+\_\+14\+\_\+12}}, 
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac77214bf627ba7621f34f7a81c00d745}{U\+S\+\_\+\+Envelope\+\_\+15}}, 
+\newline
+\mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a994250eae5e009dd7d09130639d0aedc}{U\+S\+\_\+\+Envelope\+\_\+15\+\_\+12}}
+ \}
+\begin{DoxyCompactList}\small\item\em The {\ttfamily \mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8}{Paper\+Size\+::\+Type}}} defines the selected paper size type. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classPaperSize_ac19b82ac30b91bc4223a333a2631f65e}{width}} (const \mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8}{Type}} type, Layout layout=Portrait) const
+\begin{DoxyCompactList}\small\item\em Portrait width in mm, or Landscape width if the {\ttfamily Layout} parameter is set to {\ttfamily Page\+Size\+::\+Landscape}. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classPaperSize_a185becbda27217b5df2bccc27f29bf4b}{height}} (const \mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8}{Type}} type, Layout layout=Portrait) const
+\begin{DoxyCompactList}\small\item\em Portrait height in mm, or Landscape height if the {\ttfamily Layout} parameter is set to {\ttfamily Page\+Size\+::\+Landscape}. \end{DoxyCompactList}\item 
+Q\+String \mbox{\hyperlink{classPaperSize_a829638b64da7c339430b9737e438c073}{description}} (const \mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8}{Type}} type) const
+\begin{DoxyCompactList}\small\item\em A {\ttfamily Q\+String} description. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static double \mbox{\hyperlink{classPaperSize_ac4b94da1c955bcf6b733d99f3b3a416d}{to\+Inches}} (int value)
+\begin{DoxyCompactList}\small\item\em static {\ttfamily to\+Inches} method. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classPaperSize_af106846b56d573825b539cf717c93451}\label{classPaperSize_af106846b56d573825b539cf717c93451}} 
+int {\bfseries m\+\_\+width}
+\item 
+\mbox{\Hypertarget{classPaperSize_a53ee9ed8b02d81938dd8546466d72326}\label{classPaperSize_a53ee9ed8b02d81938dd8546466d72326}} 
+int {\bfseries m\+\_\+height}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \mbox{\hyperlink{classPaperSize}{Paper\+Size}} classgives values for width, height plus a simple Q\+String definition. 
+
+Defines paper sizes for a large number of standard and non-\/standard paper sizes from a number of different countries. They include the standard European (I\+SO) and American (Letter etc.), Canadian (P1 etc.), Japanese (J\+IS) and others, plus a number of non-\/standard traditional sizes.
+
+The class comprises three main methods, {\ttfamily width(\+Type,\+Layout)}, {\ttfamily height(\+Type,\+Layout)} and {\ttfamily description(\+Type)}. {\ttfamily \mbox{\hyperlink{classPaperSize_ac19b82ac30b91bc4223a333a2631f65e}{width()}}} and {\ttfamily \mbox{\hyperlink{classPaperSize_a185becbda27217b5df2bccc27f29bf4b}{height()}}} both return a {\ttfamily qreal} as a result, while {\ttfamily \mbox{\hyperlink{classPaperSize_a829638b64da7c339430b9737e438c073}{description()}}} returns a simple {\ttfamily Q\+String} description\+: {\ttfamily description(\+Page\+Size\+::\+I\+S\+O\+\_\+\+A4)for} instace return a simple \char`\"{}\+A4\char`\"{}, {\ttfamily description(\+Page\+Size\+::\+Japanese\+\_\+\+Yotsu\+\_\+giri)}, however, yields a more complicated \char`\"{}\+Japanese
+\+Yotsu-\/giri\char`\"{}. These, however, are all simple enough that they could be used in a descriptive drop-\/down combo box or similar.
+
+If no value of {\ttfamily Layout} is supplied then Portrait is assumed and I\+S\+O\+\_\+\+A4 will return 210mm. However if {\ttfamily Paper\+Size\+::\+Landscape} is supplied then the value of 297mm is returned, the rotated width. The same applies to the {\ttfamily \mbox{\hyperlink{classPaperSize_a185becbda27217b5df2bccc27f29bf4b}{height()}}} method.
+
+If you want the sizes in Inches you can use the static {\ttfamily \mbox{\hyperlink{classPaperSize_ac4b94da1c955bcf6b733d99f3b3a416d}{to\+Inches(int)}}} method which returns a {\ttfamily double} value.
+
+This set is by no means complete and if there are any others that you need, or you notice a mistake in these existing values, let me know at \href{mailto:simonmeaden@virginmedia.com}{\tt simonmeaden@virginmedia.\+com}. OK I was bored and got a bit carried away as a lot of these are not available except for specialists, Washi papers, for instance are made from the fibers of special plants and are unlikely to be used by computers, although they could possibly be used in a scanner, the reason I initially started this. 
+
+\subsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8}} 
+\index{Paper\+Size@{Paper\+Size}!Type@{Type}}
+\index{Type@{Type}!Paper\+Size@{Paper\+Size}}
+\subsubsection{\texorpdfstring{Type}{Type}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8}{Paper\+Size\+::\+Type}}}
+
+
+
+The {\ttfamily \mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8}{Paper\+Size\+::\+Type}}} defines the selected paper size type. 
+
+For example {\ttfamily width(\+Paper\+Size\+::\+I\+S\+O\+\_\+\+A4)} will return a value of 210mm. \begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+4\+A0@{I\+S\+O\+\_\+4\+A0}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+4\+A0@{I\+S\+O\+\_\+4\+A0}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6f5639cd3e9ed6513363629774c23527}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6f5639cd3e9ed6513363629774c23527}} 
+I\+S\+O\+\_\+4\+A0&I\+SO 4\+A0 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+2\+A0@{I\+S\+O\+\_\+2\+A0}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+2\+A0@{I\+S\+O\+\_\+2\+A0}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a26c62cf29a78d267e3c0b7a614a85966}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a26c62cf29a78d267e3c0b7a614a85966}} 
+I\+S\+O\+\_\+2\+A0&I\+SO 2\+A0 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+A0@{I\+S\+O\+\_\+\+A0}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+A0@{I\+S\+O\+\_\+\+A0}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a45628b104e9380bed4ca994215a62a5d}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a45628b104e9380bed4ca994215a62a5d}} 
+I\+S\+O\+\_\+\+A0&I\+SO A0 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+A0\+\_\+\+Plus@{I\+S\+O\+\_\+\+A0\+\_\+\+Plus}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+A0\+\_\+\+Plus@{I\+S\+O\+\_\+\+A0\+\_\+\+Plus}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a5c27d4ed49a774de35db88e273846987}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a5c27d4ed49a774de35db88e273846987}} 
+I\+S\+O\+\_\+\+A0\+\_\+\+Plus&I\+SO A0+ page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+A1@{I\+S\+O\+\_\+\+A1}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+A1@{I\+S\+O\+\_\+\+A1}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a8aabc0a24f36d8ace90a377d63d361aa}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a8aabc0a24f36d8ace90a377d63d361aa}} 
+I\+S\+O\+\_\+\+A1&I\+SO A1 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+A1\+\_\+\+Plus@{I\+S\+O\+\_\+\+A1\+\_\+\+Plus}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+A1\+\_\+\+Plus@{I\+S\+O\+\_\+\+A1\+\_\+\+Plus}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a43ce27cfc7056e4b1987b82b33213854}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a43ce27cfc7056e4b1987b82b33213854}} 
+I\+S\+O\+\_\+\+A1\+\_\+\+Plus&I\+SO A1+ page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+A2@{I\+S\+O\+\_\+\+A2}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+A2@{I\+S\+O\+\_\+\+A2}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad186df7586a6192c9d86a559e8ea43e4}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad186df7586a6192c9d86a559e8ea43e4}} 
+I\+S\+O\+\_\+\+A2&I\+SO A2 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+A3@{I\+S\+O\+\_\+\+A3}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+A3@{I\+S\+O\+\_\+\+A3}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8afa144a3ac8baa66078dcff0daebb5fe4}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8afa144a3ac8baa66078dcff0daebb5fe4}} 
+I\+S\+O\+\_\+\+A3&I\+SO A3+ page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+A3\+\_\+\+Plus@{I\+S\+O\+\_\+\+A3\+\_\+\+Plus}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+A3\+\_\+\+Plus@{I\+S\+O\+\_\+\+A3\+\_\+\+Plus}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aaaceaee2a71db512493938dec4bd10e4}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aaaceaee2a71db512493938dec4bd10e4}} 
+I\+S\+O\+\_\+\+A3\+\_\+\+Plus&I\+SO A3 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+A4@{I\+S\+O\+\_\+\+A4}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+A4@{I\+S\+O\+\_\+\+A4}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad02beaeac18a6e48902dfcfd5eefeb78}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad02beaeac18a6e48902dfcfd5eefeb78}} 
+I\+S\+O\+\_\+\+A4&I\+SO A4 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+A5@{I\+S\+O\+\_\+\+A5}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+A5@{I\+S\+O\+\_\+\+A5}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aee2bca151104da99fc620d6ad9b295e9}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aee2bca151104da99fc620d6ad9b295e9}} 
+I\+S\+O\+\_\+\+A5&I\+SO A5 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+A6@{I\+S\+O\+\_\+\+A6}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+A6@{I\+S\+O\+\_\+\+A6}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aef79dcdd3e503c80de9ef2d82877fcef}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aef79dcdd3e503c80de9ef2d82877fcef}} 
+I\+S\+O\+\_\+\+A6&I\+SO A6 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+A7@{I\+S\+O\+\_\+\+A7}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+A7@{I\+S\+O\+\_\+\+A7}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a824364bad5c74315405da46d168c9c85}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a824364bad5c74315405da46d168c9c85}} 
+I\+S\+O\+\_\+\+A7&I\+SO A7 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+A8@{I\+S\+O\+\_\+\+A8}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+A8@{I\+S\+O\+\_\+\+A8}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a176ef2c7ab1365bde07092b315b14daa}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a176ef2c7ab1365bde07092b315b14daa}} 
+I\+S\+O\+\_\+\+A8&I\+SO A8 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+A9@{I\+S\+O\+\_\+\+A9}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+A9@{I\+S\+O\+\_\+\+A9}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a7da8fad136c83ab7502e582564a88649}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a7da8fad136c83ab7502e582564a88649}} 
+I\+S\+O\+\_\+\+A9&I\+SO A9 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+A10@{I\+S\+O\+\_\+\+A10}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+A10@{I\+S\+O\+\_\+\+A10}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a5a65e9ea1e2b87cd2fe08b39f817f6cf}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a5a65e9ea1e2b87cd2fe08b39f817f6cf}} 
+I\+S\+O\+\_\+\+A10&I\+SO A10 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+B0@{I\+S\+O\+\_\+\+B0}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+B0@{I\+S\+O\+\_\+\+B0}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a5ce26458bf4c4f26a3f7e24d0f545720}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a5ce26458bf4c4f26a3f7e24d0f545720}} 
+I\+S\+O\+\_\+\+B0&I\+SO B0 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+B1@{I\+S\+O\+\_\+\+B1}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+B1@{I\+S\+O\+\_\+\+B1}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ab9ef9eb2195bf818d5767382d1988a2f}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ab9ef9eb2195bf818d5767382d1988a2f}} 
+I\+S\+O\+\_\+\+B1&I\+SO B1 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+B2@{I\+S\+O\+\_\+\+B2}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+B2@{I\+S\+O\+\_\+\+B2}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a79f562814f25e641b995b9328c12c09e}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a79f562814f25e641b995b9328c12c09e}} 
+I\+S\+O\+\_\+\+B2&I\+SO B2 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+B3@{I\+S\+O\+\_\+\+B3}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+B3@{I\+S\+O\+\_\+\+B3}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a040de2b8088b1e982d9d68a5dc7f689b}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a040de2b8088b1e982d9d68a5dc7f689b}} 
+I\+S\+O\+\_\+\+B3&I\+SO B3 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+B4@{I\+S\+O\+\_\+\+B4}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+B4@{I\+S\+O\+\_\+\+B4}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af26d6668295ff509fa46b082b9b3f0a6}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af26d6668295ff509fa46b082b9b3f0a6}} 
+I\+S\+O\+\_\+\+B4&I\+SO B4 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+B5@{I\+S\+O\+\_\+\+B5}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+B5@{I\+S\+O\+\_\+\+B5}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac46aeb9175902c4016e9a2867638845d}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac46aeb9175902c4016e9a2867638845d}} 
+I\+S\+O\+\_\+\+B5&I\+SO B5 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+B6@{I\+S\+O\+\_\+\+B6}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+B6@{I\+S\+O\+\_\+\+B6}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a704fea222ca5e3eb709cda6b83e21ff4}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a704fea222ca5e3eb709cda6b83e21ff4}} 
+I\+S\+O\+\_\+\+B6&I\+SO B6 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+B7@{I\+S\+O\+\_\+\+B7}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+B7@{I\+S\+O\+\_\+\+B7}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a86e71e965ab2f921c3fce449a3f76bd0}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a86e71e965ab2f921c3fce449a3f76bd0}} 
+I\+S\+O\+\_\+\+B7&I\+SO B7 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+B8@{I\+S\+O\+\_\+\+B8}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+B8@{I\+S\+O\+\_\+\+B8}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae5f76dd9015e2a08d6e9a2cf0988c005}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae5f76dd9015e2a08d6e9a2cf0988c005}} 
+I\+S\+O\+\_\+\+B8&I\+SO B8 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+B9@{I\+S\+O\+\_\+\+B9}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+B9@{I\+S\+O\+\_\+\+B9}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9714e10972fd162b7b92c5dea4739d30}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9714e10972fd162b7b92c5dea4739d30}} 
+I\+S\+O\+\_\+\+B9&I\+SO B9 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+B10@{I\+S\+O\+\_\+\+B10}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+B10@{I\+S\+O\+\_\+\+B10}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a36dc1fa2c66e63e7ee2a53b0af841a99}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a36dc1fa2c66e63e7ee2a53b0af841a99}} 
+I\+S\+O\+\_\+\+B10&I\+SO B10 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+C0@{I\+S\+O\+\_\+\+C0}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+C0@{I\+S\+O\+\_\+\+C0}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a3e7a26834549180c02c3a03b5bf5d7a7}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a3e7a26834549180c02c3a03b5bf5d7a7}} 
+I\+S\+O\+\_\+\+C0&I\+SO C0 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+C1@{I\+S\+O\+\_\+\+C1}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+C1@{I\+S\+O\+\_\+\+C1}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a61655d86c60d51ddf7fef70cc7e8d73f}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a61655d86c60d51ddf7fef70cc7e8d73f}} 
+I\+S\+O\+\_\+\+C1&I\+SO C1 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+C2@{I\+S\+O\+\_\+\+C2}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+C2@{I\+S\+O\+\_\+\+C2}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a560a9af05033b0c6e410c780ddea32d6}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a560a9af05033b0c6e410c780ddea32d6}} 
+I\+S\+O\+\_\+\+C2&I\+SO C2 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+C3@{I\+S\+O\+\_\+\+C3}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+C3@{I\+S\+O\+\_\+\+C3}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9f3d1b5a7904cae2ea213d1d7f4e248e}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9f3d1b5a7904cae2ea213d1d7f4e248e}} 
+I\+S\+O\+\_\+\+C3&I\+SO C3 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+C4@{I\+S\+O\+\_\+\+C4}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+C4@{I\+S\+O\+\_\+\+C4}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2a2cbe529e2af2568da4b7188797d016}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2a2cbe529e2af2568da4b7188797d016}} 
+I\+S\+O\+\_\+\+C4&I\+SO C4 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+C5@{I\+S\+O\+\_\+\+C5}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+C5@{I\+S\+O\+\_\+\+C5}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a29433392557db86d27e0d60370c08d9c}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a29433392557db86d27e0d60370c08d9c}} 
+I\+S\+O\+\_\+\+C5&I\+SO C5 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+C6@{I\+S\+O\+\_\+\+C6}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+C6@{I\+S\+O\+\_\+\+C6}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a1fc187292c353e208798be6067ff2d89}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a1fc187292c353e208798be6067ff2d89}} 
+I\+S\+O\+\_\+\+C6&I\+SO C6 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+C7@{I\+S\+O\+\_\+\+C7}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+C7@{I\+S\+O\+\_\+\+C7}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a1d21128e2cfc22984fa8109c8f6bbe5d}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a1d21128e2cfc22984fa8109c8f6bbe5d}} 
+I\+S\+O\+\_\+\+C7&I\+SO C7 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+C8@{I\+S\+O\+\_\+\+C8}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+C8@{I\+S\+O\+\_\+\+C8}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9bb29d676432723dc71ff825efdd1144}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9bb29d676432723dc71ff825efdd1144}} 
+I\+S\+O\+\_\+\+C8&I\+SO C8 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+C9@{I\+S\+O\+\_\+\+C9}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+C9@{I\+S\+O\+\_\+\+C9}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af0246ecb91f9efe410ef3f65e8df0fab}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af0246ecb91f9efe410ef3f65e8df0fab}} 
+I\+S\+O\+\_\+\+C9&I\+SO C9 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+C10@{I\+S\+O\+\_\+\+C10}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+C10@{I\+S\+O\+\_\+\+C10}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac7a2ed219df052c065cc00494a199ba2}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac7a2ed219df052c065cc00494a199ba2}} 
+I\+S\+O\+\_\+\+C10&I\+SO C10 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Half\+\_\+\+Letter@{U\+S\+\_\+\+Half\+\_\+\+Letter}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Half\+\_\+\+Letter@{U\+S\+\_\+\+Half\+\_\+\+Letter}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a10eacaf18061bad13a51f95e35a21845}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a10eacaf18061bad13a51f95e35a21845}} 
+U\+S\+\_\+\+Half\+\_\+\+Letter&US Half letter page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Letter@{U\+S\+\_\+\+Letter}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Letter@{U\+S\+\_\+\+Letter}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a07573b58a0e646d44c8b6216597951a7}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a07573b58a0e646d44c8b6216597951a7}} 
+U\+S\+\_\+\+Letter&US Letter page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Legal@{U\+S\+\_\+\+Legal}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Legal@{U\+S\+\_\+\+Legal}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9e9ce083f03a299a2a60d2c6ba592b5e}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9e9ce083f03a299a2a60d2c6ba592b5e}} 
+U\+S\+\_\+\+Legal&US Legal page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Junior\+\_\+\+Legal@{U\+S\+\_\+\+Junior\+\_\+\+Legal}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Junior\+\_\+\+Legal@{U\+S\+\_\+\+Junior\+\_\+\+Legal}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a4354bfa1e8e453b0ca9d5185b425e6b0}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a4354bfa1e8e453b0ca9d5185b425e6b0}} 
+U\+S\+\_\+\+Junior\+\_\+\+Legal&US Junior legal page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Ledger@{U\+S\+\_\+\+Ledger}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Ledger@{U\+S\+\_\+\+Ledger}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2fb3247669de1988ae99013624a68456}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2fb3247669de1988ae99013624a68456}} 
+U\+S\+\_\+\+Ledger&US Ledger page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Tabloid@{U\+S\+\_\+\+Tabloid}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Tabloid@{U\+S\+\_\+\+Tabloid}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2d88dc52072877868b9befc2f2cb1748}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2d88dc52072877868b9befc2f2cb1748}} 
+U\+S\+\_\+\+Tabloid&US Tabloid page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Gov\+\_\+\+Letter@{U\+S\+\_\+\+Gov\+\_\+\+Letter}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Gov\+\_\+\+Letter@{U\+S\+\_\+\+Gov\+\_\+\+Letter}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a060c53c1b66ed42556050ad766dcf9a1}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a060c53c1b66ed42556050ad766dcf9a1}} 
+U\+S\+\_\+\+Gov\+\_\+\+Letter&US Government Letter page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Gov\+\_\+\+Legal@{U\+S\+\_\+\+Gov\+\_\+\+Legal}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Gov\+\_\+\+Legal@{U\+S\+\_\+\+Gov\+\_\+\+Legal}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae1af2f5bc5ff0b0f7bec6977e8d3a73d}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae1af2f5bc5ff0b0f7bec6977e8d3a73d}} 
+U\+S\+\_\+\+Gov\+\_\+\+Legal&US Government Legal page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+A\+N\+S\+I\+\_\+A@{U\+S\+\_\+\+A\+N\+S\+I\+\_\+A}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+A\+N\+S\+I\+\_\+A@{U\+S\+\_\+\+A\+N\+S\+I\+\_\+A}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8afbfdb190c47d5fc4ae223399214beca0}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8afbfdb190c47d5fc4ae223399214beca0}} 
+U\+S\+\_\+\+A\+N\+S\+I\+\_\+A&US A\+N\+SI A page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+A\+N\+S\+I\+\_\+B@{U\+S\+\_\+\+A\+N\+S\+I\+\_\+B}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+A\+N\+S\+I\+\_\+B@{U\+S\+\_\+\+A\+N\+S\+I\+\_\+B}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa01b4aa2041289c66caedb9f5e4b4415}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa01b4aa2041289c66caedb9f5e4b4415}} 
+U\+S\+\_\+\+A\+N\+S\+I\+\_\+B&US A\+N\+SI B page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+A\+N\+S\+I\+\_\+C@{U\+S\+\_\+\+A\+N\+S\+I\+\_\+C}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+A\+N\+S\+I\+\_\+C@{U\+S\+\_\+\+A\+N\+S\+I\+\_\+C}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a4bdc4a2cc6a1cccc94aaae62daa5b735}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a4bdc4a2cc6a1cccc94aaae62daa5b735}} 
+U\+S\+\_\+\+A\+N\+S\+I\+\_\+C&US A\+N\+SI C page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+A\+N\+S\+I\+\_\+D@{U\+S\+\_\+\+A\+N\+S\+I\+\_\+D}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+A\+N\+S\+I\+\_\+D@{U\+S\+\_\+\+A\+N\+S\+I\+\_\+D}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a83141f881688a18e0c6a4abce235bd43}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a83141f881688a18e0c6a4abce235bd43}} 
+U\+S\+\_\+\+A\+N\+S\+I\+\_\+D&US A\+N\+SI D page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+A\+N\+S\+I\+\_\+E@{U\+S\+\_\+\+A\+N\+S\+I\+\_\+E}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+A\+N\+S\+I\+\_\+E@{U\+S\+\_\+\+A\+N\+S\+I\+\_\+E}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae34590a78bf25e6ba7bc2b3b4d7c3e1e}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae34590a78bf25e6ba7bc2b3b4d7c3e1e}} 
+U\+S\+\_\+\+A\+N\+S\+I\+\_\+E&US A\+N\+SI E page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Arch\+\_\+A@{U\+S\+\_\+\+Arch\+\_\+A}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Arch\+\_\+A@{U\+S\+\_\+\+Arch\+\_\+A}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aac0be7cbbdda9779d36a190f7ca0edb6}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aac0be7cbbdda9779d36a190f7ca0edb6}} 
+U\+S\+\_\+\+Arch\+\_\+A&US Archtectural A page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Arch\+\_\+B@{U\+S\+\_\+\+Arch\+\_\+B}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Arch\+\_\+B@{U\+S\+\_\+\+Arch\+\_\+B}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a44f20132c2c2b8fa0aca88460b49dc78}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a44f20132c2c2b8fa0aca88460b49dc78}} 
+U\+S\+\_\+\+Arch\+\_\+B&US Archtectural B page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Arch\+\_\+C@{U\+S\+\_\+\+Arch\+\_\+C}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Arch\+\_\+C@{U\+S\+\_\+\+Arch\+\_\+C}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad2abda3038a49ee07a330204622d963b}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad2abda3038a49ee07a330204622d963b}} 
+U\+S\+\_\+\+Arch\+\_\+C&US Archtectural C page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Arch\+\_\+D@{U\+S\+\_\+\+Arch\+\_\+D}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Arch\+\_\+D@{U\+S\+\_\+\+Arch\+\_\+D}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac9c6ddd9acd772751f7272f11d4f79a4}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac9c6ddd9acd772751f7272f11d4f79a4}} 
+U\+S\+\_\+\+Arch\+\_\+D&US Archtectural D page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Arch\+\_\+E@{U\+S\+\_\+\+Arch\+\_\+E}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Arch\+\_\+E@{U\+S\+\_\+\+Arch\+\_\+E}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a1c35295ebfd63c2b0b157532bff91e18}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a1c35295ebfd63c2b0b157532bff91e18}} 
+U\+S\+\_\+\+Arch\+\_\+E&US Archtectural E page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Arch\+\_\+\+E1@{U\+S\+\_\+\+Arch\+\_\+\+E1}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Arch\+\_\+\+E1@{U\+S\+\_\+\+Arch\+\_\+\+E1}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aebe8620889f36b3e0568f902524c3601}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aebe8620889f36b3e0568f902524c3601}} 
+U\+S\+\_\+\+Arch\+\_\+\+E1&US Archtectural E1 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Arch\+\_\+\+E2@{U\+S\+\_\+\+Arch\+\_\+\+E2}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Arch\+\_\+\+E2@{U\+S\+\_\+\+Arch\+\_\+\+E2}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a324ec6deb44ad836e92bbc92d85c397c}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a324ec6deb44ad836e92bbc92d85c397c}} 
+U\+S\+\_\+\+Arch\+\_\+\+E2&US Archtectural E2 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Arch\+\_\+\+E3@{U\+S\+\_\+\+Arch\+\_\+\+E3}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Arch\+\_\+\+E3@{U\+S\+\_\+\+Arch\+\_\+\+E3}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae06d7bb0c8ffc53d103870c3be2bc747}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae06d7bb0c8ffc53d103870c3be2bc747}} 
+U\+S\+\_\+\+Arch\+\_\+\+E3&US Archtectural E3 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{J\+I\+S\+\_\+\+B0@{J\+I\+S\+\_\+\+B0}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!J\+I\+S\+\_\+\+B0@{J\+I\+S\+\_\+\+B0}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6bd95a7eabac40a91ff2305c3d8b5357}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6bd95a7eabac40a91ff2305c3d8b5357}} 
+J\+I\+S\+\_\+\+B0&Japanese B0 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{J\+I\+S\+\_\+\+B1@{J\+I\+S\+\_\+\+B1}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!J\+I\+S\+\_\+\+B1@{J\+I\+S\+\_\+\+B1}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aec771d7147fdee3a2f12ed9eb89dfa14}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aec771d7147fdee3a2f12ed9eb89dfa14}} 
+J\+I\+S\+\_\+\+B1&Japanese B1 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{J\+I\+S\+\_\+\+B2@{J\+I\+S\+\_\+\+B2}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!J\+I\+S\+\_\+\+B2@{J\+I\+S\+\_\+\+B2}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0706884ad70274aee544543e2f5c4fb2}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0706884ad70274aee544543e2f5c4fb2}} 
+J\+I\+S\+\_\+\+B2&Japanese B2 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{J\+I\+S\+\_\+\+B3@{J\+I\+S\+\_\+\+B3}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!J\+I\+S\+\_\+\+B3@{J\+I\+S\+\_\+\+B3}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae614af079b2053a1c9360f6cf48733b5}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae614af079b2053a1c9360f6cf48733b5}} 
+J\+I\+S\+\_\+\+B3&Japanese B3 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{J\+I\+S\+\_\+\+B4@{J\+I\+S\+\_\+\+B4}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!J\+I\+S\+\_\+\+B4@{J\+I\+S\+\_\+\+B4}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa5b392afe719b478da684307d8813b95}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa5b392afe719b478da684307d8813b95}} 
+J\+I\+S\+\_\+\+B4&Japanese B4 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{J\+I\+S\+\_\+\+B5@{J\+I\+S\+\_\+\+B5}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!J\+I\+S\+\_\+\+B5@{J\+I\+S\+\_\+\+B5}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a976abd4d0cacade46d497f1a4f728531}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a976abd4d0cacade46d497f1a4f728531}} 
+J\+I\+S\+\_\+\+B5&Japanese B5 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{J\+I\+S\+\_\+\+B6@{J\+I\+S\+\_\+\+B6}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!J\+I\+S\+\_\+\+B6@{J\+I\+S\+\_\+\+B6}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac97f8eb6d61b22e23e91eacbba4c7473}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac97f8eb6d61b22e23e91eacbba4c7473}} 
+J\+I\+S\+\_\+\+B6&Japanese B6 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{J\+I\+S\+\_\+\+B7@{J\+I\+S\+\_\+\+B7}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!J\+I\+S\+\_\+\+B7@{J\+I\+S\+\_\+\+B7}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8afbd541d4207ff72b99053b89b7501966}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8afbd541d4207ff72b99053b89b7501966}} 
+J\+I\+S\+\_\+\+B7&Japanese B7 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{J\+I\+S\+\_\+\+B8@{J\+I\+S\+\_\+\+B8}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!J\+I\+S\+\_\+\+B8@{J\+I\+S\+\_\+\+B8}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a8d3adf8f00372339626226c6250b8ce3}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a8d3adf8f00372339626226c6250b8ce3}} 
+J\+I\+S\+\_\+\+B8&Japanese B8 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{J\+I\+S\+\_\+\+B9@{J\+I\+S\+\_\+\+B9}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!J\+I\+S\+\_\+\+B9@{J\+I\+S\+\_\+\+B9}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a37a8e4b887abf29bc6e5c686a8b8fe10}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a37a8e4b887abf29bc6e5c686a8b8fe10}} 
+J\+I\+S\+\_\+\+B9&Japanese B9 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{J\+I\+S\+\_\+\+B10@{J\+I\+S\+\_\+\+B10}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!J\+I\+S\+\_\+\+B10@{J\+I\+S\+\_\+\+B10}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a703019e4e31ed05153ea4d8c1919931f}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a703019e4e31ed05153ea4d8c1919931f}} 
+J\+I\+S\+\_\+\+B10&Japanese B10 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{J\+I\+S\+\_\+\+B11@{J\+I\+S\+\_\+\+B11}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!J\+I\+S\+\_\+\+B11@{J\+I\+S\+\_\+\+B11}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac60e13f85a812fadb011a71b805a433b}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac60e13f85a812fadb011a71b805a433b}} 
+J\+I\+S\+\_\+\+B11&Japanese B11 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{J\+I\+S\+\_\+\+B12@{J\+I\+S\+\_\+\+B12}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!J\+I\+S\+\_\+\+B12@{J\+I\+S\+\_\+\+B12}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a91a27817ebef9f36d7715b1adc6e7da4}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a91a27817ebef9f36d7715b1adc6e7da4}} 
+J\+I\+S\+\_\+\+B12&Japanese B12 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{J\+I\+S\+\_\+\+A\+\_\+ban@{J\+I\+S\+\_\+\+A\+\_\+ban}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!J\+I\+S\+\_\+\+A\+\_\+ban@{J\+I\+S\+\_\+\+A\+\_\+ban}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af32d0b503e1d6f0610a143c9ffe76ff0}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af32d0b503e1d6f0610a143c9ffe76ff0}} 
+J\+I\+S\+\_\+\+A\+\_\+ban&Japanese A-\/ban page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{J\+I\+S\+\_\+\+B\+\_\+ban@{J\+I\+S\+\_\+\+B\+\_\+ban}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!J\+I\+S\+\_\+\+B\+\_\+ban@{J\+I\+S\+\_\+\+B\+\_\+ban}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a771189a2309205ed339bad3b59941bf6}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a771189a2309205ed339bad3b59941bf6}} 
+J\+I\+S\+\_\+\+B\+\_\+ban&Japanese B-\/ban page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Chinese\+\_\+\+D0@{Chinese\+\_\+\+D0}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Chinese\+\_\+\+D0@{Chinese\+\_\+\+D0}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a798f9e2612a69f547b3477a2da1913b0}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a798f9e2612a69f547b3477a2da1913b0}} 
+Chinese\+\_\+\+D0&Chinese D0 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Chinese\+\_\+\+D1@{Chinese\+\_\+\+D1}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Chinese\+\_\+\+D1@{Chinese\+\_\+\+D1}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a1491492d5663f2c89894b365651cf67a}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a1491492d5663f2c89894b365651cf67a}} 
+Chinese\+\_\+\+D1&Chinese D1 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Chinese\+\_\+\+D2@{Chinese\+\_\+\+D2}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Chinese\+\_\+\+D2@{Chinese\+\_\+\+D2}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6209b56328d7d19c3c34e6e340635a32}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6209b56328d7d19c3c34e6e340635a32}} 
+Chinese\+\_\+\+D2&Chinese D2 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Chinese\+\_\+\+D3@{Chinese\+\_\+\+D3}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Chinese\+\_\+\+D3@{Chinese\+\_\+\+D3}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac9dcd1d0459f9c881bc38b24f01c5d37}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac9dcd1d0459f9c881bc38b24f01c5d37}} 
+Chinese\+\_\+\+D3&Chinese D3 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Chinese\+\_\+\+D4@{Chinese\+\_\+\+D4}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Chinese\+\_\+\+D4@{Chinese\+\_\+\+D4}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9c5e9d7ab1a9f094e4660e70bd526d62}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9c5e9d7ab1a9f094e4660e70bd526d62}} 
+Chinese\+\_\+\+D4&Chinese D4 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Chinese\+\_\+\+D5@{Chinese\+\_\+\+D5}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Chinese\+\_\+\+D5@{Chinese\+\_\+\+D5}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0bfc308015b92c5dd296ed8bdc5976f9}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0bfc308015b92c5dd296ed8bdc5976f9}} 
+Chinese\+\_\+\+D5&Chinese D5 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Chinese\+\_\+\+D6@{Chinese\+\_\+\+D6}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Chinese\+\_\+\+D6@{Chinese\+\_\+\+D6}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a5d23fd3f81d747de371362589084cf45}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a5d23fd3f81d747de371362589084cf45}} 
+Chinese\+\_\+\+D6&Chinese D6 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Chinese\+\_\+\+R\+D0@{Chinese\+\_\+\+R\+D0}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Chinese\+\_\+\+R\+D0@{Chinese\+\_\+\+R\+D0}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9fbd34464a6279551ea84012230e9a97}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9fbd34464a6279551ea84012230e9a97}} 
+Chinese\+\_\+\+R\+D0&Chinese R\+D0 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Chinese\+\_\+\+R\+D1@{Chinese\+\_\+\+R\+D1}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Chinese\+\_\+\+R\+D1@{Chinese\+\_\+\+R\+D1}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a629b23925e58e2f6962f568c116e5b68}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a629b23925e58e2f6962f568c116e5b68}} 
+Chinese\+\_\+\+R\+D1&Chinese R\+D1 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Chinese\+\_\+\+R\+D2@{Chinese\+\_\+\+R\+D2}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Chinese\+\_\+\+R\+D2@{Chinese\+\_\+\+R\+D2}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6a4bc18dd5e927bf30f436ebf6a74814}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6a4bc18dd5e927bf30f436ebf6a74814}} 
+Chinese\+\_\+\+R\+D2&Chinese R\+D2 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Chinese\+\_\+\+R\+D3@{Chinese\+\_\+\+R\+D3}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Chinese\+\_\+\+R\+D3@{Chinese\+\_\+\+R\+D3}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6fbd3cc72ed9f0473151a62ee937e2df}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6fbd3cc72ed9f0473151a62ee937e2df}} 
+Chinese\+\_\+\+R\+D3&Chinese R\+D3 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Chinese\+\_\+\+R\+D4@{Chinese\+\_\+\+R\+D4}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Chinese\+\_\+\+R\+D4@{Chinese\+\_\+\+R\+D4}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a55d8e065a6f5606c33c66281f1872c8d}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a55d8e065a6f5606c33c66281f1872c8d}} 
+Chinese\+\_\+\+R\+D4&Chinese R\+D4 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Chinese\+\_\+\+R\+D5@{Chinese\+\_\+\+R\+D5}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Chinese\+\_\+\+R\+D5@{Chinese\+\_\+\+R\+D5}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad028db8ef1441b90436e26deb59a83c1}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad028db8ef1441b90436e26deb59a83c1}} 
+Chinese\+\_\+\+R\+D5&Chinese R\+D5 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Chinese\+\_\+\+R\+D6@{Chinese\+\_\+\+R\+D6}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Chinese\+\_\+\+R\+D6@{Chinese\+\_\+\+R\+D6}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a90d01cd7db7d7ab9812a2629d63d993f}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a90d01cd7db7d7ab9812a2629d63d993f}} 
+Chinese\+\_\+\+R\+D6&Chinese R\+D6 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Canadian\+\_\+\+P1@{Canadian\+\_\+\+P1}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Canadian\+\_\+\+P1@{Canadian\+\_\+\+P1}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a16c516f2b5c0a63b29e543633af13514}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a16c516f2b5c0a63b29e543633af13514}} 
+Canadian\+\_\+\+P1&Canadian P1 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Canadian\+\_\+\+P2@{Canadian\+\_\+\+P2}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Canadian\+\_\+\+P2@{Canadian\+\_\+\+P2}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0864521dc695678b2e280f38158dbb7a}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0864521dc695678b2e280f38158dbb7a}} 
+Canadian\+\_\+\+P2&Canadian P2 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Canadian\+\_\+\+P3@{Canadian\+\_\+\+P3}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Canadian\+\_\+\+P3@{Canadian\+\_\+\+P3}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a5af91a15cb80919fe16da5f2362ffe1e}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a5af91a15cb80919fe16da5f2362ffe1e}} 
+Canadian\+\_\+\+P3&Canadian P3 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Canadian\+\_\+\+P4@{Canadian\+\_\+\+P4}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Canadian\+\_\+\+P4@{Canadian\+\_\+\+P4}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6a462215487a5057923207bff4f4dd4f}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6a462215487a5057923207bff4f4dd4f}} 
+Canadian\+\_\+\+P4&Canadian P4 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Canadian\+\_\+\+P5@{Canadian\+\_\+\+P5}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Canadian\+\_\+\+P5@{Canadian\+\_\+\+P5}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac734b8861dcc08393aba9cb180334388}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac734b8861dcc08393aba9cb180334388}} 
+Canadian\+\_\+\+P5&Canadian P5 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Canadian\+\_\+\+P6@{Canadian\+\_\+\+P6}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Canadian\+\_\+\+P6@{Canadian\+\_\+\+P6}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a78b1cb8cf1b0a3c93aa2570191c309e2}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a78b1cb8cf1b0a3c93aa2570191c309e2}} 
+Canadian\+\_\+\+P6&Canadian P6 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+AB@{Japanese\+\_\+\+AB}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+AB@{Japanese\+\_\+\+AB}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a29b3811b16382403cb07a56debd0f7d7}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a29b3811b16382403cb07a56debd0f7d7}} 
+Japanese\+\_\+\+AB&Japanese AB page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+B40@{Japanese\+\_\+\+B40}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+B40@{Japanese\+\_\+\+B40}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad4bff99ae81464027a33673ea8267629}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad4bff99ae81464027a33673ea8267629}} 
+Japanese\+\_\+\+B40&Japanese B40 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Shikisen@{Japanese\+\_\+\+Shikisen}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Shikisen@{Japanese\+\_\+\+Shikisen}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aba2f707d4c9f6d3cbee8a816c953d45d}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aba2f707d4c9f6d3cbee8a816c953d45d}} 
+Japanese\+\_\+\+Shikisen&Japanese Shikisen page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+A\+\_\+\+Koban@{Japanese\+\_\+\+A\+\_\+\+Koban}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+A\+\_\+\+Koban@{Japanese\+\_\+\+A\+\_\+\+Koban}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa46feea2a2badb4eb0932a8c584470af}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa46feea2a2badb4eb0932a8c584470af}} 
+Japanese\+\_\+\+A\+\_\+\+Koban&Japanese A Koban page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+B\+\_\+\+Koban@{Japanese\+\_\+\+B\+\_\+\+Koban}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+B\+\_\+\+Koban@{Japanese\+\_\+\+B\+\_\+\+Koban}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a4e0b0bcc7e72e350bfe4a8eca736271e}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a4e0b0bcc7e72e350bfe4a8eca736271e}} 
+Japanese\+\_\+\+B\+\_\+\+Koban&Japanese B Koban page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Shirokuban\+\_\+4@{Japanese\+\_\+\+Shirokuban\+\_\+4}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Shirokuban\+\_\+4@{Japanese\+\_\+\+Shirokuban\+\_\+4}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a884595f0de3c35e57dbea1b8660f019e}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a884595f0de3c35e57dbea1b8660f019e}} 
+Japanese\+\_\+\+Shirokuban\+\_\+4&Japanese Shiroku ban 4 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Shirokuban\+\_\+5@{Japanese\+\_\+\+Shirokuban\+\_\+5}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Shirokuban\+\_\+5@{Japanese\+\_\+\+Shirokuban\+\_\+5}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae9022597519da34ecc8ad75d89bfbbc5}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae9022597519da34ecc8ad75d89bfbbc5}} 
+Japanese\+\_\+\+Shirokuban\+\_\+5&Japanese Shiroku ban 5 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Shirokuban\+\_\+6@{Japanese\+\_\+\+Shirokuban\+\_\+6}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Shirokuban\+\_\+6@{Japanese\+\_\+\+Shirokuban\+\_\+6}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a582958f3581ec153d2e4759d619f317a}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a582958f3581ec153d2e4759d619f317a}} 
+Japanese\+\_\+\+Shirokuban\+\_\+6&Japanese Shiroku ban 6 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Kiku\+\_\+4@{Japanese\+\_\+\+Kiku\+\_\+4}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Kiku\+\_\+4@{Japanese\+\_\+\+Kiku\+\_\+4}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad374588c5092a4825f3942ee09cd783d}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad374588c5092a4825f3942ee09cd783d}} 
+Japanese\+\_\+\+Kiku\+\_\+4&Japanese Kiku 4 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Kiku\+\_\+5@{Japanese\+\_\+\+Kiku\+\_\+5}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Kiku\+\_\+5@{Japanese\+\_\+\+Kiku\+\_\+5}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae2efe2d5abf1678577095383a2db7533}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae2efe2d5abf1678577095383a2db7533}} 
+Japanese\+\_\+\+Kiku\+\_\+5&Japanese Kiku 5 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Zenshi@{Japanese\+\_\+\+Zenshi}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Zenshi@{Japanese\+\_\+\+Zenshi}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af091095f7b18d6d12b359702265e4cc7}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af091095f7b18d6d12b359702265e4cc7}} 
+Japanese\+\_\+\+Zenshi&Japanese Traditional Zenshi page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Han\+\_\+\+Kiri@{Japanese\+\_\+\+Han\+\_\+\+Kiri}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Han\+\_\+\+Kiri@{Japanese\+\_\+\+Han\+\_\+\+Kiri}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2067efc0e610a205501f20241d67a7bd}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2067efc0e610a205501f20241d67a7bd}} 
+Japanese\+\_\+\+Han\+\_\+\+Kiri&Japanese Traditional Han Kiri 5 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Yatsu\+\_\+giri@{Japanese\+\_\+\+Yatsu\+\_\+giri}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Yatsu\+\_\+giri@{Japanese\+\_\+\+Yatsu\+\_\+giri}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af09e089adbfc5689a970b732daf20b07}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af09e089adbfc5689a970b732daf20b07}} 
+Japanese\+\_\+\+Yatsu\+\_\+giri&Japanese Traditional Yatsu-\/giri page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Matsu\+\_\+giri@{Japanese\+\_\+\+Matsu\+\_\+giri}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Matsu\+\_\+giri@{Japanese\+\_\+\+Matsu\+\_\+giri}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a26bb8483aa4ef1a57c1b92dd7e495cf9}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a26bb8483aa4ef1a57c1b92dd7e495cf9}} 
+Japanese\+\_\+\+Matsu\+\_\+giri&Japanese Traditional Matsu-\/giri page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Yotsu\+\_\+giri@{Japanese\+\_\+\+Yotsu\+\_\+giri}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Yotsu\+\_\+giri@{Japanese\+\_\+\+Yotsu\+\_\+giri}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8add7c43df09c359bc21d9cada51dda7da}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8add7c43df09c359bc21d9cada51dda7da}} 
+Japanese\+\_\+\+Yotsu\+\_\+giri&Japanese Traditional Yotsu-\/giri page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Dai\+\_\+\+Kyabine@{Japanese\+\_\+\+Dai\+\_\+\+Kyabine}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Dai\+\_\+\+Kyabine@{Japanese\+\_\+\+Dai\+\_\+\+Kyabine}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a31fa535c75cdbfa4f5ba1a3dfe8c28d4}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a31fa535c75cdbfa4f5ba1a3dfe8c28d4}} 
+Japanese\+\_\+\+Dai\+\_\+\+Kyabine&Japanese Traditional Dai-\/kyabine page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Kyabine@{Japanese\+\_\+\+Kyabine}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Kyabine@{Japanese\+\_\+\+Kyabine}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a95e4910e48d92be271798099e42c08cb}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a95e4910e48d92be271798099e42c08cb}} 
+Japanese\+\_\+\+Kyabine&Japanese Traditional Kyabine page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Nimai\+\_\+gake@{Japanese\+\_\+\+Nimai\+\_\+gake}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Nimai\+\_\+gake@{Japanese\+\_\+\+Nimai\+\_\+gake}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9c9329f26427f97e249a8307b81ea874}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9c9329f26427f97e249a8307b81ea874}} 
+Japanese\+\_\+\+Nimai\+\_\+gake&Japanese Traditional Nimai-\/gake page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Potsutokaado@{Japanese\+\_\+\+Potsutokaado}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Potsutokaado@{Japanese\+\_\+\+Potsutokaado}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae8285a537933fc3e425976906c84bfec}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae8285a537933fc3e425976906c84bfec}} 
+Japanese\+\_\+\+Potsutokaado&Japanese Traditional Potsuto-\/kaado page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Dai\+\_\+\+Tefuda@{Japanese\+\_\+\+Dai\+\_\+\+Tefuda}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Dai\+\_\+\+Tefuda@{Japanese\+\_\+\+Dai\+\_\+\+Tefuda}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a696f71573c8c35bbcbeb67a8d1f879f8}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a696f71573c8c35bbcbeb67a8d1f879f8}} 
+Japanese\+\_\+\+Dai\+\_\+\+Tefuda&Japanese Traditional Dai-\/teduda page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Saabisu@{Japanese\+\_\+\+Saabisu}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Saabisu@{Japanese\+\_\+\+Saabisu}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a10391ab6bddd0d49a8ac4f1cad53ec64}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a10391ab6bddd0d49a8ac4f1cad53ec64}} 
+Japanese\+\_\+\+Saabisu&Japanese Traditional Saabisu page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Tefuda@{Japanese\+\_\+\+Tefuda}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Tefuda@{Japanese\+\_\+\+Tefuda}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad823937bc57cb19b964ef48964d4f024}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad823937bc57cb19b964ef48964d4f024}} 
+Japanese\+\_\+\+Tefuda&Japanese Traditional Tefuda page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Dai\+\_\+meishi@{Japanese\+\_\+\+Dai\+\_\+meishi}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Dai\+\_\+meishi@{Japanese\+\_\+\+Dai\+\_\+meishi}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a5982e992d19d2c52a33dd5a806026a43}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a5982e992d19d2c52a33dd5a806026a43}} 
+Japanese\+\_\+\+Dai\+\_\+meishi&Japanese Traditional Dai-\/meishi page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Kokusai\+\_\+ban@{Japanese\+\_\+\+Kokusai\+\_\+ban}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Kokusai\+\_\+ban@{Japanese\+\_\+\+Kokusai\+\_\+ban}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a972ae4a0b583d3e1f0662b83e141d7c1}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a972ae4a0b583d3e1f0662b83e141d7c1}} 
+Japanese\+\_\+\+Kokusai\+\_\+ban&Japanese Traditional Dai-\/meishi page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Hyoujun\+\_\+gata@{Japanese\+\_\+\+Hyoujun\+\_\+gata}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Hyoujun\+\_\+gata@{Japanese\+\_\+\+Hyoujun\+\_\+gata}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad7744f7d1b8163ebeb4904f7507a81e7}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad7744f7d1b8163ebeb4904f7507a81e7}} 
+Japanese\+\_\+\+Hyoujun\+\_\+gata&Japanese Traditional Hyoujun-\/gata page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Oo\+\_\+gata@{Japanese\+\_\+\+Oo\+\_\+gata}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Oo\+\_\+gata@{Japanese\+\_\+\+Oo\+\_\+gata}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a168f4a896dbcb5f56fb09772ecb76bef}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a168f4a896dbcb5f56fb09772ecb76bef}} 
+Japanese\+\_\+\+Oo\+\_\+gata&Japanese Traditional Dai-\/meishi page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Chuu\+\_\+gata@{Japanese\+\_\+\+Chuu\+\_\+gata}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Chuu\+\_\+gata@{Japanese\+\_\+\+Chuu\+\_\+gata}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a20232fc4624ee9a2c50f92d17bededce}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a20232fc4624ee9a2c50f92d17bededce}} 
+Japanese\+\_\+\+Chuu\+\_\+gata&Japanese Traditional Dai-\/meishi page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Ko\+\_\+gata@{Japanese\+\_\+\+Ko\+\_\+gata}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Ko\+\_\+gata@{Japanese\+\_\+\+Ko\+\_\+gata}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0092160e2bc2694cf3123b005de84cd6}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0092160e2bc2694cf3123b005de84cd6}} 
+Japanese\+\_\+\+Ko\+\_\+gata&Japanese Traditional Dai-\/meishi page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Ippitsu\+\_\+sen@{Japanese\+\_\+\+Ippitsu\+\_\+sen}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Ippitsu\+\_\+sen@{Japanese\+\_\+\+Ippitsu\+\_\+sen}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa2364be179ccf8c1cad4520000d63932}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa2364be179ccf8c1cad4520000d63932}} 
+Japanese\+\_\+\+Ippitsu\+\_\+sen&Japanese Traditional Dai-\/meishi page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Hanshi@{Japanese\+\_\+\+Hanshi}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Hanshi@{Japanese\+\_\+\+Hanshi}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a29e2f82f51f94a97d83bd4d92351bbd4}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a29e2f82f51f94a97d83bd4d92351bbd4}} 
+Japanese\+\_\+\+Hanshi&Japanese Traditional Washi Hanshi page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Mino@{Japanese\+\_\+\+Mino}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Mino@{Japanese\+\_\+\+Mino}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af82cb866a34d677af20eb79c869f74e9}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af82cb866a34d677af20eb79c869f74e9}} 
+Japanese\+\_\+\+Mino&Japanese Traditional Washi Mino page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Oohousho@{Japanese\+\_\+\+Oohousho}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Oohousho@{Japanese\+\_\+\+Oohousho}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a745352529bd91f87e16ab192407967af}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a745352529bd91f87e16ab192407967af}} 
+Japanese\+\_\+\+Oohousho&Japanese Traditional Washi Oohousho page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Chuuhousho@{Japanese\+\_\+\+Chuuhousho}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Chuuhousho@{Japanese\+\_\+\+Chuuhousho}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a04075ae923e114c96107482864e33502}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a04075ae923e114c96107482864e33502}} 
+Japanese\+\_\+\+Chuuhousho&Japanese Traditional Washi Chuuhousho page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Kohousho@{Japanese\+\_\+\+Kohousho}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Kohousho@{Japanese\+\_\+\+Kohousho}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a596b52ff1b0328a5c6efcc2d9018f4e2}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a596b52ff1b0328a5c6efcc2d9018f4e2}} 
+Japanese\+\_\+\+Kohousho&Japanese Traditional Washi Kohousho page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Nisho\+\_\+no\+\_\+uchi@{Japanese\+\_\+\+Nisho\+\_\+no\+\_\+uchi}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Nisho\+\_\+no\+\_\+uchi@{Japanese\+\_\+\+Nisho\+\_\+no\+\_\+uchi}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a4cbb477ed390e865e5d1eb4ac17f8ee9}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a4cbb477ed390e865e5d1eb4ac17f8ee9}} 
+Japanese\+\_\+\+Nisho\+\_\+no\+\_\+uchi&Japanese Traditional Washi Nisho-\/no-\/uchi page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Kusuma@{Japanese\+\_\+\+Kusuma}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Kusuma@{Japanese\+\_\+\+Kusuma}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2aaa68bf5ee591c09f0184e0ae08a398}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2aaa68bf5ee591c09f0184e0ae08a398}} 
+Japanese\+\_\+\+Kusuma&Japanese Traditional Washi Kusuma page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Envelope\+\_\+\+Chou1@{Japanese\+\_\+\+Envelope\+\_\+\+Chou1}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Envelope\+\_\+\+Chou1@{Japanese\+\_\+\+Envelope\+\_\+\+Chou1}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a1834a9abd9955ec813285d7bacf00dac}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a1834a9abd9955ec813285d7bacf00dac}} 
+Japanese\+\_\+\+Envelope\+\_\+\+Chou1&Japanese Non-\/\+J\+IS Envelope Chou1. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{J\+I\+S\+\_\+\+Envelope\+\_\+\+Chou2@{J\+I\+S\+\_\+\+Envelope\+\_\+\+Chou2}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!J\+I\+S\+\_\+\+Envelope\+\_\+\+Chou2@{J\+I\+S\+\_\+\+Envelope\+\_\+\+Chou2}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9021b2138bb94fc8877a1a1355c2bbe0}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9021b2138bb94fc8877a1a1355c2bbe0}} 
+J\+I\+S\+\_\+\+Envelope\+\_\+\+Chou2&Japanese J\+IS Envelope Chou2. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{J\+I\+S\+\_\+\+Envelope\+\_\+\+Chou3@{J\+I\+S\+\_\+\+Envelope\+\_\+\+Chou3}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!J\+I\+S\+\_\+\+Envelope\+\_\+\+Chou3@{J\+I\+S\+\_\+\+Envelope\+\_\+\+Chou3}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6c115875b4f6919f4d9aeac1a3ce7ce0}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6c115875b4f6919f4d9aeac1a3ce7ce0}} 
+J\+I\+S\+\_\+\+Envelope\+\_\+\+Chou3&Japanese J\+IS Envelope Chou3. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Envelope\+\_\+\+Chou31@{Japanese\+\_\+\+Envelope\+\_\+\+Chou31}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Envelope\+\_\+\+Chou31@{Japanese\+\_\+\+Envelope\+\_\+\+Chou31}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa49c364b1d6c10b6bd610a2655e1a0c2}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa49c364b1d6c10b6bd610a2655e1a0c2}} 
+Japanese\+\_\+\+Envelope\+\_\+\+Chou31&Japanese Non-\/\+J\+IS Envelope Chou31. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Envelope\+\_\+\+Chou30@{Japanese\+\_\+\+Envelope\+\_\+\+Chou30}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Envelope\+\_\+\+Chou30@{Japanese\+\_\+\+Envelope\+\_\+\+Chou30}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8abf2a24bd76bbfd62c75bd0ea66cedea8}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8abf2a24bd76bbfd62c75bd0ea66cedea8}} 
+Japanese\+\_\+\+Envelope\+\_\+\+Chou30&Japanese Non-\/\+J\+IS Envelope Chou30. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Envelope\+\_\+\+Chou40@{Japanese\+\_\+\+Envelope\+\_\+\+Chou40}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Envelope\+\_\+\+Chou40@{Japanese\+\_\+\+Envelope\+\_\+\+Chou40}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ab5decb8828b63ddf3a702acfd5c2bb52}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ab5decb8828b63ddf3a702acfd5c2bb52}} 
+Japanese\+\_\+\+Envelope\+\_\+\+Chou40&Japanese Non-\/\+J\+IS Envelope Chou40. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{J\+I\+S\+\_\+\+Envelope\+\_\+\+Chou4@{J\+I\+S\+\_\+\+Envelope\+\_\+\+Chou4}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!J\+I\+S\+\_\+\+Envelope\+\_\+\+Chou4@{J\+I\+S\+\_\+\+Envelope\+\_\+\+Chou4}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a8b4724b6cd437d169a5e09d0ebaf558b}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a8b4724b6cd437d169a5e09d0ebaf558b}} 
+J\+I\+S\+\_\+\+Envelope\+\_\+\+Chou4&Japanese J\+IS Envelope Chou4. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Envelope\+\_\+\+Kaku\+A3@{Japanese\+\_\+\+Envelope\+\_\+\+Kaku\+A3}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Envelope\+\_\+\+Kaku\+A3@{Japanese\+\_\+\+Envelope\+\_\+\+Kaku\+A3}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a33095f067ffbaaf6bedd5e94209867eb}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a33095f067ffbaaf6bedd5e94209867eb}} 
+Japanese\+\_\+\+Envelope\+\_\+\+Kaku\+A3&Japanese Non-\/\+J\+IS Envelope Kaku\+A3. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Envelope\+\_\+\+Kaku0@{Japanese\+\_\+\+Envelope\+\_\+\+Kaku0}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Envelope\+\_\+\+Kaku0@{Japanese\+\_\+\+Envelope\+\_\+\+Kaku0}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a87c7f832ab12e9182ed6b5c0a343784b}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a87c7f832ab12e9182ed6b5c0a343784b}} 
+Japanese\+\_\+\+Envelope\+\_\+\+Kaku0&Japanese Non-\/\+J\+IS Envelope Kaku0. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Envelope\+\_\+\+Kaku1@{Japanese\+\_\+\+Envelope\+\_\+\+Kaku1}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Envelope\+\_\+\+Kaku1@{Japanese\+\_\+\+Envelope\+\_\+\+Kaku1}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ab5d91a463b144e32547170d0de858c40}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ab5d91a463b144e32547170d0de858c40}} 
+Japanese\+\_\+\+Envelope\+\_\+\+Kaku1&Japanese Non-\/\+J\+IS Envelope Kaku1. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{J\+I\+S\+\_\+\+Envelope\+\_\+\+Kaku2@{J\+I\+S\+\_\+\+Envelope\+\_\+\+Kaku2}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!J\+I\+S\+\_\+\+Envelope\+\_\+\+Kaku2@{J\+I\+S\+\_\+\+Envelope\+\_\+\+Kaku2}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa70c1b470ed16a39877c8efa914be916}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa70c1b470ed16a39877c8efa914be916}} 
+J\+I\+S\+\_\+\+Envelope\+\_\+\+Kaku2&Japanese J\+IS Envelope Kaku2. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Envelope\+\_\+\+Kaku\+\_\+\+Kokusai\+A4@{Japanese\+\_\+\+Envelope\+\_\+\+Kaku\+\_\+\+Kokusai\+A4}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Envelope\+\_\+\+Kaku\+\_\+\+Kokusai\+A4@{Japanese\+\_\+\+Envelope\+\_\+\+Kaku\+\_\+\+Kokusai\+A4}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a8c36c6511d9f2e662f6019c37cceef52}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a8c36c6511d9f2e662f6019c37cceef52}} 
+Japanese\+\_\+\+Envelope\+\_\+\+Kaku\+\_\+\+Kokusai\+A4&Japanese Non-\/\+J\+IS Envelope Kaku\+A3. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{J\+I\+S\+\_\+\+Kaku3@{J\+I\+S\+\_\+\+Kaku3}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!J\+I\+S\+\_\+\+Kaku3@{J\+I\+S\+\_\+\+Kaku3}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac0954be2510f7f5b81f921ad9c7070c7}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac0954be2510f7f5b81f921ad9c7070c7}} 
+J\+I\+S\+\_\+\+Kaku3&Japanese J\+IS Envelope Kaku3. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{J\+I\+S\+\_\+\+Kaku4@{J\+I\+S\+\_\+\+Kaku4}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!J\+I\+S\+\_\+\+Kaku4@{J\+I\+S\+\_\+\+Kaku4}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0fbfc085e83a285e157b7bbebc4bd220}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0fbfc085e83a285e157b7bbebc4bd220}} 
+J\+I\+S\+\_\+\+Kaku4&Japanese J\+IS Envelope Kaku4. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{J\+I\+S\+\_\+\+Kaku5@{J\+I\+S\+\_\+\+Kaku5}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!J\+I\+S\+\_\+\+Kaku5@{J\+I\+S\+\_\+\+Kaku5}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a80317682aef4421d7ce582dae8b1cc4a}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a80317682aef4421d7ce582dae8b1cc4a}} 
+J\+I\+S\+\_\+\+Kaku5&Japanese J\+IS Envelope Kaku5. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{J\+I\+S\+\_\+\+Kaku6@{J\+I\+S\+\_\+\+Kaku6}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!J\+I\+S\+\_\+\+Kaku6@{J\+I\+S\+\_\+\+Kaku6}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9ab1d5a2d1b0951ac2cd27d1233e8646}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9ab1d5a2d1b0951ac2cd27d1233e8646}} 
+J\+I\+S\+\_\+\+Kaku6&Japanese J\+IS Envelope Kaku6. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{J\+I\+S\+\_\+\+Kaku7@{J\+I\+S\+\_\+\+Kaku7}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!J\+I\+S\+\_\+\+Kaku7@{J\+I\+S\+\_\+\+Kaku7}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2a6aac9afc49af89edf86e0dbc18f3dd}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2a6aac9afc49af89edf86e0dbc18f3dd}} 
+J\+I\+S\+\_\+\+Kaku7&Japanese J\+IS Envelope Kaku7. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{J\+I\+S\+\_\+\+Kaku8@{J\+I\+S\+\_\+\+Kaku8}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!J\+I\+S\+\_\+\+Kaku8@{J\+I\+S\+\_\+\+Kaku8}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a10e7260e5111296e16d07bdb8a81d119}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a10e7260e5111296e16d07bdb8a81d119}} 
+J\+I\+S\+\_\+\+Kaku8&Japanese J\+IS Envelope Kaku8. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Japanese\+\_\+\+Envelope\+\_\+\+You0@{Japanese\+\_\+\+Envelope\+\_\+\+You0}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Japanese\+\_\+\+Envelope\+\_\+\+You0@{Japanese\+\_\+\+Envelope\+\_\+\+You0}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad398cbaceb524a71ed894c9ca53eede7}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad398cbaceb524a71ed894c9ca53eede7}} 
+Japanese\+\_\+\+Envelope\+\_\+\+You0&Japanese Non-\/\+J\+IS Envelope You1. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{J\+I\+S\+\_\+\+You0@{J\+I\+S\+\_\+\+You0}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!J\+I\+S\+\_\+\+You0@{J\+I\+S\+\_\+\+You0}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad5c7985713ae7bde2b4f46867d93e07e}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad5c7985713ae7bde2b4f46867d93e07e}} 
+J\+I\+S\+\_\+\+You0&Japanese J\+IS Envelope You0. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{J\+I\+S\+\_\+\+You1@{J\+I\+S\+\_\+\+You1}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!J\+I\+S\+\_\+\+You1@{J\+I\+S\+\_\+\+You1}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a39dc4093662abb404b08738219c3aa09}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a39dc4093662abb404b08738219c3aa09}} 
+J\+I\+S\+\_\+\+You1&Japanese J\+IS Envelope You1. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{J\+I\+S\+\_\+\+You2@{J\+I\+S\+\_\+\+You2}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!J\+I\+S\+\_\+\+You2@{J\+I\+S\+\_\+\+You2}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a03d0e2eeb5d28694a02ba7566335ebaa}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a03d0e2eeb5d28694a02ba7566335ebaa}} 
+J\+I\+S\+\_\+\+You2&Japanese J\+IS Envelope You2. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{J\+I\+S\+\_\+\+You3@{J\+I\+S\+\_\+\+You3}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!J\+I\+S\+\_\+\+You3@{J\+I\+S\+\_\+\+You3}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa16cbafc5357a7dc0da5ad9cce03b981}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa16cbafc5357a7dc0da5ad9cce03b981}} 
+J\+I\+S\+\_\+\+You3&Japanese J\+IS Envelope You3. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{J\+I\+S\+\_\+\+You4@{J\+I\+S\+\_\+\+You4}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!J\+I\+S\+\_\+\+You4@{J\+I\+S\+\_\+\+You4}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0ec1388eae7082a80866a83c7f828e0f}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0ec1388eae7082a80866a83c7f828e0f}} 
+J\+I\+S\+\_\+\+You4&Japanese J\+IS Envelope You4. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{J\+I\+S\+\_\+\+You5@{J\+I\+S\+\_\+\+You5}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!J\+I\+S\+\_\+\+You5@{J\+I\+S\+\_\+\+You5}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae4ee68c3f947cd0edb12f2510764dae0}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae4ee68c3f947cd0edb12f2510764dae0}} 
+J\+I\+S\+\_\+\+You5&Japanese J\+IS Envelope You5. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{J\+I\+S\+\_\+\+You6@{J\+I\+S\+\_\+\+You6}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!J\+I\+S\+\_\+\+You6@{J\+I\+S\+\_\+\+You6}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2ff891b8e1a1593a2741d352289b7706}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2ff891b8e1a1593a2741d352289b7706}} 
+J\+I\+S\+\_\+\+You6&Japanese J\+IS Envelope You6. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{J\+I\+S\+\_\+\+You7@{J\+I\+S\+\_\+\+You7}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!J\+I\+S\+\_\+\+You7@{J\+I\+S\+\_\+\+You7}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a647791c3612c9c2d7c92313d0e3dd6a1}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a647791c3612c9c2d7c92313d0e3dd6a1}} 
+J\+I\+S\+\_\+\+You7&Japanese J\+IS Envelope You7. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Columbian\+\_\+\+Carta@{Columbian\+\_\+\+Carta}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Columbian\+\_\+\+Carta@{Columbian\+\_\+\+Carta}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a052a0c5343a219722b29b0b47eff780c}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a052a0c5343a219722b29b0b47eff780c}} 
+Columbian\+\_\+\+Carta&Columbian B40 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Columbian\+\_\+\+Extra\+\_\+\+Tabloide@{Columbian\+\_\+\+Extra\+\_\+\+Tabloide}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Columbian\+\_\+\+Extra\+\_\+\+Tabloide@{Columbian\+\_\+\+Extra\+\_\+\+Tabloide}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a13d5df8827c65ef0ad735e316d116380}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a13d5df8827c65ef0ad735e316d116380}} 
+Columbian\+\_\+\+Extra\+\_\+\+Tabloide&Columbian Wxtra Tabloide page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Columbian\+\_\+\+Oficio@{Columbian\+\_\+\+Oficio}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Columbian\+\_\+\+Oficio@{Columbian\+\_\+\+Oficio}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aff46f308bddd9955a0a1c2e3ca1abbd1}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aff46f308bddd9955a0a1c2e3ca1abbd1}} 
+Columbian\+\_\+\+Oficio&Columbian Oficio page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Columbian\+\_\+1\+\_\+8\+\_\+\+Pliego@{Columbian\+\_\+1\+\_\+8\+\_\+\+Pliego}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Columbian\+\_\+1\+\_\+8\+\_\+\+Pliego@{Columbian\+\_\+1\+\_\+8\+\_\+\+Pliego}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9272878da1fd044e86ab7184628889d0}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9272878da1fd044e86ab7184628889d0}} 
+Columbian\+\_\+1\+\_\+8\+\_\+\+Pliego&Columbian 1/8 Pliago page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Columbian\+\_\+1\+\_\+4\+\_\+\+Pliego@{Columbian\+\_\+1\+\_\+4\+\_\+\+Pliego}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Columbian\+\_\+1\+\_\+4\+\_\+\+Pliego@{Columbian\+\_\+1\+\_\+4\+\_\+\+Pliego}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8add4d805f2747a32a0516916fca2920d4}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8add4d805f2747a32a0516916fca2920d4}} 
+Columbian\+\_\+1\+\_\+4\+\_\+\+Pliego&Columbian 1/4 Pliego page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Columbian\+\_\+1\+\_\+2\+\_\+\+Pliego@{Columbian\+\_\+1\+\_\+2\+\_\+\+Pliego}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Columbian\+\_\+1\+\_\+2\+\_\+\+Pliego@{Columbian\+\_\+1\+\_\+2\+\_\+\+Pliego}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad57355307d7beb98b350ad6d79c69311}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad57355307d7beb98b350ad6d79c69311}} 
+Columbian\+\_\+1\+\_\+2\+\_\+\+Pliego&Columbian 1/2 Pliego page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Columbian\+\_\+\+Pliego@{Columbian\+\_\+\+Pliego}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Columbian\+\_\+\+Pliego@{Columbian\+\_\+\+Pliego}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aad57686f4c2da8cad02f310f48985844}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aad57686f4c2da8cad02f310f48985844}} 
+Columbian\+\_\+\+Pliego&Columbian Pliego page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{French\+\_\+\+Cloche@{French\+\_\+\+Cloche}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!French\+\_\+\+Cloche@{French\+\_\+\+Cloche}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa1e259ca3a0380c2ac3988ba6df3415e}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa1e259ca3a0380c2ac3988ba6df3415e}} 
+French\+\_\+\+Cloche&French Cloche page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{French\+\_\+\+Pot\+\_\+ecolier@{French\+\_\+\+Pot\+\_\+ecolier}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!French\+\_\+\+Pot\+\_\+ecolier@{French\+\_\+\+Pot\+\_\+ecolier}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a26b2b2fbdfbc9f5637fe86891c8a2db6}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a26b2b2fbdfbc9f5637fe86891c8a2db6}} 
+French\+\_\+\+Pot\+\_\+ecolier&French Pot, écolier page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{French\+\_\+\+Telliere@{French\+\_\+\+Telliere}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!French\+\_\+\+Telliere@{French\+\_\+\+Telliere}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a189635448bf7cec6a6a2d6d6c7844b25}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a189635448bf7cec6a6a2d6d6c7844b25}} 
+French\+\_\+\+Telliere&French Tellière page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{French\+\_\+\+Couronne\+\_\+ecriture@{French\+\_\+\+Couronne\+\_\+ecriture}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!French\+\_\+\+Couronne\+\_\+ecriture@{French\+\_\+\+Couronne\+\_\+ecriture}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a71252b550f66b03ca45e2b25ca39ad3a}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a71252b550f66b03ca45e2b25ca39ad3a}} 
+French\+\_\+\+Couronne\+\_\+ecriture&French Couronne écriture page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{French\+\_\+\+Couronne\+\_\+edition@{French\+\_\+\+Couronne\+\_\+edition}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!French\+\_\+\+Couronne\+\_\+edition@{French\+\_\+\+Couronne\+\_\+edition}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af1cf5a15c50da619767664ba4ddd158b}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af1cf5a15c50da619767664ba4ddd158b}} 
+French\+\_\+\+Couronne\+\_\+edition&French Couronne édition page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{French\+\_\+\+Roberto@{French\+\_\+\+Roberto}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!French\+\_\+\+Roberto@{French\+\_\+\+Roberto}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0c5e1b9dbc12ae710bca17df4e1605d4}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0c5e1b9dbc12ae710bca17df4e1605d4}} 
+French\+\_\+\+Roberto&French Roberto page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{French\+\_\+\+Ecu@{French\+\_\+\+Ecu}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!French\+\_\+\+Ecu@{French\+\_\+\+Ecu}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8afdc26ea3c08479e7480e3827699eea80}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8afdc26ea3c08479e7480e3827699eea80}} 
+French\+\_\+\+Ecu&French Écu page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{French\+\_\+\+Coquille@{French\+\_\+\+Coquille}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!French\+\_\+\+Coquille@{French\+\_\+\+Coquille}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a099b482905e4515a8e7cc095c842b28b}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a099b482905e4515a8e7cc095c842b28b}} 
+French\+\_\+\+Coquille&French Coquille page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{French\+\_\+\+Carre@{French\+\_\+\+Carre}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!French\+\_\+\+Carre@{French\+\_\+\+Carre}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af6bc9783196b74179755b15e7bc7ad32}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af6bc9783196b74179755b15e7bc7ad32}} 
+French\+\_\+\+Carre&French Carré page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{French\+\_\+\+Cavalier@{French\+\_\+\+Cavalier}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!French\+\_\+\+Cavalier@{French\+\_\+\+Cavalier}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af225f3cb6a278f2b76544ea20d8a9319}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af225f3cb6a278f2b76544ea20d8a9319}} 
+French\+\_\+\+Cavalier&French Cavalier page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{French\+\_\+\+Demi\+\_\+raisin@{French\+\_\+\+Demi\+\_\+raisin}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!French\+\_\+\+Demi\+\_\+raisin@{French\+\_\+\+Demi\+\_\+raisin}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a004cef946e106c5e47c4d2d4587dea9b}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a004cef946e106c5e47c4d2d4587dea9b}} 
+French\+\_\+\+Demi\+\_\+raisin&French Demi-\/raisin page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{French\+\_\+\+Raisin@{French\+\_\+\+Raisin}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!French\+\_\+\+Raisin@{French\+\_\+\+Raisin}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2fd853194be9580adcdb7d3cc52f2e07}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2fd853194be9580adcdb7d3cc52f2e07}} 
+French\+\_\+\+Raisin&French Raisin page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{French\+\_\+\+Double\+\_\+\+Raisin@{French\+\_\+\+Double\+\_\+\+Raisin}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!French\+\_\+\+Double\+\_\+\+Raisin@{French\+\_\+\+Double\+\_\+\+Raisin}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac0a7431272d8a6c106cc6d17556e3d64}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac0a7431272d8a6c106cc6d17556e3d64}} 
+French\+\_\+\+Double\+\_\+\+Raisin&French Double Raisin page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{French\+\_\+\+Jesus@{French\+\_\+\+Jesus}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!French\+\_\+\+Jesus@{French\+\_\+\+Jesus}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ab8622f561633b6e7ce95d18394f5827c}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ab8622f561633b6e7ce95d18394f5827c}} 
+French\+\_\+\+Jesus&French Jésus page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{French\+\_\+\+Soliel@{French\+\_\+\+Soliel}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!French\+\_\+\+Soliel@{French\+\_\+\+Soliel}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a96fa834bd737f0059eb6a7d27964d043}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a96fa834bd737f0059eb6a7d27964d043}} 
+French\+\_\+\+Soliel&French Soleil page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{French\+\_\+\+Colombier\+\_\+\+Affiche@{French\+\_\+\+Colombier\+\_\+\+Affiche}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!French\+\_\+\+Colombier\+\_\+\+Affiche@{French\+\_\+\+Colombier\+\_\+\+Affiche}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0d20f58b52422030dc886f6f08e5686d}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0d20f58b52422030dc886f6f08e5686d}} 
+French\+\_\+\+Colombier\+\_\+\+Affiche&French Colombier affiche page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{French\+\_\+\+Colombier\+\_\+\+Commercial@{French\+\_\+\+Colombier\+\_\+\+Commercial}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!French\+\_\+\+Colombier\+\_\+\+Commercial@{French\+\_\+\+Colombier\+\_\+\+Commercial}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8abf1434e9a53caf4e891365e714611d70}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8abf1434e9a53caf4e891365e714611d70}} 
+French\+\_\+\+Colombier\+\_\+\+Commercial&French Colombier commercial page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{French\+\_\+\+Petit\+\_\+\+Aigle@{French\+\_\+\+Petit\+\_\+\+Aigle}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!French\+\_\+\+Petit\+\_\+\+Aigle@{French\+\_\+\+Petit\+\_\+\+Aigle}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae091a1b7281c362df896cb6640831741}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae091a1b7281c362df896cb6640831741}} 
+French\+\_\+\+Petit\+\_\+\+Aigle&French Petit Aigle page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{French\+\_\+\+Grand\+\_\+\+Aigle@{French\+\_\+\+Grand\+\_\+\+Aigle}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!French\+\_\+\+Grand\+\_\+\+Aigle@{French\+\_\+\+Grand\+\_\+\+Aigle}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6083ac53ad6e4aefa8fd67996895b163}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6083ac53ad6e4aefa8fd67996895b163}} 
+French\+\_\+\+Grand\+\_\+\+Aigle&French Grand Aigle page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{French\+\_\+\+Grand\+\_\+\+Monde@{French\+\_\+\+Grand\+\_\+\+Monde}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!French\+\_\+\+Grand\+\_\+\+Monde@{French\+\_\+\+Grand\+\_\+\+Monde}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9203fd0d541babaad87608eb2492739c}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9203fd0d541babaad87608eb2492739c}} 
+French\+\_\+\+Grand\+\_\+\+Monde&French Grand Monde page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{French\+\_\+\+Univers@{French\+\_\+\+Univers}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!French\+\_\+\+Univers@{French\+\_\+\+Univers}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a68676358b3fcc3bb108080dd5b213c58}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a68676358b3fcc3bb108080dd5b213c58}} 
+French\+\_\+\+Univers&French Univers page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{R\+A\+W\+\_\+\+R\+A0@{R\+A\+W\+\_\+\+R\+A0}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!R\+A\+W\+\_\+\+R\+A0@{R\+A\+W\+\_\+\+R\+A0}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ab6fab9c5b5ba7aa6d385430cbbdd7ecc}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ab6fab9c5b5ba7aa6d385430cbbdd7ecc}} 
+R\+A\+W\+\_\+\+R\+A0&I\+SO 217\+:1995 R\+AW format R\+A0 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{R\+A\+W\+\_\+\+R\+A1@{R\+A\+W\+\_\+\+R\+A1}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!R\+A\+W\+\_\+\+R\+A1@{R\+A\+W\+\_\+\+R\+A1}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0aa8b4ef9857a96e66ecd2746e473e45}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0aa8b4ef9857a96e66ecd2746e473e45}} 
+R\+A\+W\+\_\+\+R\+A1&I\+SO 217\+:1995 R\+AW format R\+A1 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{R\+A\+W\+\_\+\+R\+A2@{R\+A\+W\+\_\+\+R\+A2}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!R\+A\+W\+\_\+\+R\+A2@{R\+A\+W\+\_\+\+R\+A2}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0200dab8ffaf0cd3789e8b642b9a2e5b}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0200dab8ffaf0cd3789e8b642b9a2e5b}} 
+R\+A\+W\+\_\+\+R\+A2&I\+SO 217\+:1995 R\+AW format R\+A2 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{R\+A\+W\+\_\+\+R\+A3@{R\+A\+W\+\_\+\+R\+A3}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!R\+A\+W\+\_\+\+R\+A3@{R\+A\+W\+\_\+\+R\+A3}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a63f15cbc73a18c10ddb35393143ff3c6}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a63f15cbc73a18c10ddb35393143ff3c6}} 
+R\+A\+W\+\_\+\+R\+A3&I\+SO 217\+:1995 R\+AW format R\+A3 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{R\+A\+W\+\_\+\+R\+A4@{R\+A\+W\+\_\+\+R\+A4}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!R\+A\+W\+\_\+\+R\+A4@{R\+A\+W\+\_\+\+R\+A4}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a47e66a973a868cd497c1642b3d0132d2}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a47e66a973a868cd497c1642b3d0132d2}} 
+R\+A\+W\+\_\+\+R\+A4&I\+SO 217\+:1995 R\+AW format R\+A4 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{R\+A\+W\+\_\+\+S\+R\+A0@{R\+A\+W\+\_\+\+S\+R\+A0}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!R\+A\+W\+\_\+\+S\+R\+A0@{R\+A\+W\+\_\+\+S\+R\+A0}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6a7d9d771d71651ade308e1698d25891}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6a7d9d771d71651ade308e1698d25891}} 
+R\+A\+W\+\_\+\+S\+R\+A0&I\+SO 217\+:1995 R\+AW format S\+R\+A0 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{R\+A\+W\+\_\+\+S\+R\+A1@{R\+A\+W\+\_\+\+S\+R\+A1}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!R\+A\+W\+\_\+\+S\+R\+A1@{R\+A\+W\+\_\+\+S\+R\+A1}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aeafc70a8fc747b1a7ffbfea85442993f}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aeafc70a8fc747b1a7ffbfea85442993f}} 
+R\+A\+W\+\_\+\+S\+R\+A1&I\+SO 217\+:1995 R\+AW format S\+R\+A1 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{R\+A\+W\+\_\+\+S\+R\+A2@{R\+A\+W\+\_\+\+S\+R\+A2}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!R\+A\+W\+\_\+\+S\+R\+A2@{R\+A\+W\+\_\+\+S\+R\+A2}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9633efca5de2a089b6be8bbadc1c17ec}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9633efca5de2a089b6be8bbadc1c17ec}} 
+R\+A\+W\+\_\+\+S\+R\+A2&I\+SO 217\+:1995 R\+AW format S\+R\+A2 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{R\+A\+W\+\_\+\+S\+R\+A3@{R\+A\+W\+\_\+\+S\+R\+A3}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!R\+A\+W\+\_\+\+S\+R\+A3@{R\+A\+W\+\_\+\+S\+R\+A3}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ab8c00c1e596fb6a3be30ed68832918c3}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ab8c00c1e596fb6a3be30ed68832918c3}} 
+R\+A\+W\+\_\+\+S\+R\+A3&I\+SO 217\+:1995 R\+AW format S\+R\+A3 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{R\+A\+W\+\_\+\+S\+R\+A4@{R\+A\+W\+\_\+\+S\+R\+A4}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!R\+A\+W\+\_\+\+S\+R\+A4@{R\+A\+W\+\_\+\+S\+R\+A4}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ab5a37b8fe61409ef7cf26c7c0b694db8}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ab5a37b8fe61409ef7cf26c7c0b694db8}} 
+R\+A\+W\+\_\+\+S\+R\+A4&I\+SO 217\+:1995 R\+AW format S\+R\+A4 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{R\+A\+W\+\_\+\+S\+R\+A1\+\_\+\+Plus@{R\+A\+W\+\_\+\+S\+R\+A1\+\_\+\+Plus}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!R\+A\+W\+\_\+\+S\+R\+A1\+\_\+\+Plus@{R\+A\+W\+\_\+\+S\+R\+A1\+\_\+\+Plus}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0298d8e7ef7b8f0d8a59abc7cdaa44af}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0298d8e7ef7b8f0d8a59abc7cdaa44af}} 
+R\+A\+W\+\_\+\+S\+R\+A1\+\_\+\+Plus&I\+SO 217\+:1995 R\+AW format S\+R\+A1+ page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{R\+A\+W\+\_\+\+S\+R\+A2\+\_\+\+Plus@{R\+A\+W\+\_\+\+S\+R\+A2\+\_\+\+Plus}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!R\+A\+W\+\_\+\+S\+R\+A2\+\_\+\+Plus@{R\+A\+W\+\_\+\+S\+R\+A2\+\_\+\+Plus}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a157b69a7d2861dc8ca5544e4d9948494}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a157b69a7d2861dc8ca5544e4d9948494}} 
+R\+A\+W\+\_\+\+S\+R\+A2\+\_\+\+Plus&I\+SO 217\+:1995 R\+AW format S\+R\+A2+ page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{R\+A\+W\+\_\+\+S\+R\+A3\+\_\+\+Plus@{R\+A\+W\+\_\+\+S\+R\+A3\+\_\+\+Plus}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!R\+A\+W\+\_\+\+S\+R\+A3\+\_\+\+Plus@{R\+A\+W\+\_\+\+S\+R\+A3\+\_\+\+Plus}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ada51b3b01cc48fb5e04afa1099515873}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ada51b3b01cc48fb5e04afa1099515873}} 
+R\+A\+W\+\_\+\+S\+R\+A3\+\_\+\+Plus&I\+SO 217\+:1995 R\+AW format S\+R\+A3+ page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{R\+A\+W\+\_\+\+S\+R\+A3\+\_\+\+Plus\+\_\+\+Plus@{R\+A\+W\+\_\+\+S\+R\+A3\+\_\+\+Plus\+\_\+\+Plus}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!R\+A\+W\+\_\+\+S\+R\+A3\+\_\+\+Plus\+\_\+\+Plus@{R\+A\+W\+\_\+\+S\+R\+A3\+\_\+\+Plus\+\_\+\+Plus}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad77e75430ad576f04f570cd7c921d3c4}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad77e75430ad576f04f570cd7c921d3c4}} 
+R\+A\+W\+\_\+\+S\+R\+A3\+\_\+\+Plus\+\_\+\+Plus&I\+SO 217\+:1995 R\+AW format S\+R\+A3++ page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{R\+A\+W\+\_\+\+A0U@{R\+A\+W\+\_\+\+A0U}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!R\+A\+W\+\_\+\+A0U@{R\+A\+W\+\_\+\+A0U}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af7c98cc29de32abc4923cad6d4974e76}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af7c98cc29de32abc4923cad6d4974e76}} 
+R\+A\+W\+\_\+\+A0U&I\+SO 217\+:1995 R\+AW format A0U page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{R\+A\+W\+\_\+\+A1U@{R\+A\+W\+\_\+\+A1U}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!R\+A\+W\+\_\+\+A1U@{R\+A\+W\+\_\+\+A1U}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a86299dd59301b77307e344b3a799bc67}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a86299dd59301b77307e344b3a799bc67}} 
+R\+A\+W\+\_\+\+A1U&I\+SO 217\+:1995 R\+AW format A1U page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{R\+A\+W\+\_\+\+A2U@{R\+A\+W\+\_\+\+A2U}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!R\+A\+W\+\_\+\+A2U@{R\+A\+W\+\_\+\+A2U}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a55f0f23a6a1e2ec1ed79d545f9475a3a}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a55f0f23a6a1e2ec1ed79d545f9475a3a}} 
+R\+A\+W\+\_\+\+A2U&I\+SO 217\+:1995 R\+AW format A2U page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{R\+A\+W\+\_\+\+A3U@{R\+A\+W\+\_\+\+A3U}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!R\+A\+W\+\_\+\+A3U@{R\+A\+W\+\_\+\+A3U}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aeac2684396413a3ab4d2144acd56ea76}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aeac2684396413a3ab4d2144acd56ea76}} 
+R\+A\+W\+\_\+\+A3U&I\+SO 217\+:1995 R\+AW format A3U page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{R\+A\+W\+\_\+\+A4U@{R\+A\+W\+\_\+\+A4U}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!R\+A\+W\+\_\+\+A4U@{R\+A\+W\+\_\+\+A4U}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af1241dd0c832a3c61ec8483a7e48a2b2}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af1241dd0c832a3c61ec8483a7e48a2b2}} 
+R\+A\+W\+\_\+\+A4U&I\+SO 217\+:1995 R\+AW format A4U page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{British\+\_\+\+Dukes@{British\+\_\+\+Dukes}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!British\+\_\+\+Dukes@{British\+\_\+\+Dukes}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa805a971a2b1c7f4794be9a9d0a572f6}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa805a971a2b1c7f4794be9a9d0a572f6}} 
+British\+\_\+\+Dukes&Transitional British Dukes page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{British\+\_\+\+Foolscap@{British\+\_\+\+Foolscap}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!British\+\_\+\+Foolscap@{British\+\_\+\+Foolscap}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a765a5abbfa3399cc9ba9a1ba4201c09d}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a765a5abbfa3399cc9ba9a1ba4201c09d}} 
+British\+\_\+\+Foolscap&Transitional British Foolscap page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{British\+\_\+\+Imperial@{British\+\_\+\+Imperial}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!British\+\_\+\+Imperial@{British\+\_\+\+Imperial}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8adae0e1d0986e2b4c3a6dbe93f7810d63}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8adae0e1d0986e2b4c3a6dbe93f7810d63}} 
+British\+\_\+\+Imperial&Transitional British Imperial page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{British\+\_\+\+Kings@{British\+\_\+\+Kings}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!British\+\_\+\+Kings@{British\+\_\+\+Kings}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a7e8b0f845a4f4ac1347f1f9ff26fc568}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a7e8b0f845a4f4ac1347f1f9ff26fc568}} 
+British\+\_\+\+Kings&Transitional British Kings page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{British\+\_\+\+Quarto@{British\+\_\+\+Quarto}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!British\+\_\+\+Quarto@{British\+\_\+\+Quarto}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a8b860bc2231aa286464c0c6e2a548745}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a8b860bc2231aa286464c0c6e2a548745}} 
+British\+\_\+\+Quarto&Transitional British Quarto page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Imperial\+\_\+\+Antiquarian@{Imperial\+\_\+\+Antiquarian}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Imperial\+\_\+\+Antiquarian@{Imperial\+\_\+\+Antiquarian}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a28ab70e3c77179b8f0726c732c201a10}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a28ab70e3c77179b8f0726c732c201a10}} 
+Imperial\+\_\+\+Antiquarian&British Imperial Antiquarian page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Imperial\+\_\+\+Atlas@{Imperial\+\_\+\+Atlas}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Imperial\+\_\+\+Atlas@{Imperial\+\_\+\+Atlas}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a64245dcf24dd777889c467616d8bfdaa}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a64245dcf24dd777889c467616d8bfdaa}} 
+Imperial\+\_\+\+Atlas&British Imperial Atlas page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Imperial\+\_\+\+Brief@{Imperial\+\_\+\+Brief}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Imperial\+\_\+\+Brief@{Imperial\+\_\+\+Brief}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0a4a7a780c2597002b1d1d8b3846eed6}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0a4a7a780c2597002b1d1d8b3846eed6}} 
+Imperial\+\_\+\+Brief&British Imperial Brief page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Imperial\+\_\+\+Broadsheet@{Imperial\+\_\+\+Broadsheet}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Imperial\+\_\+\+Broadsheet@{Imperial\+\_\+\+Broadsheet}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a159e342045df09c5599efce2ac3fe006}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a159e342045df09c5599efce2ac3fe006}} 
+Imperial\+\_\+\+Broadsheet&British Imperial Broadsheet page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Imperial\+\_\+\+Cartridge@{Imperial\+\_\+\+Cartridge}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Imperial\+\_\+\+Cartridge@{Imperial\+\_\+\+Cartridge}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a04e4f33bb8739cb7afe08139fab5a154}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a04e4f33bb8739cb7afe08139fab5a154}} 
+Imperial\+\_\+\+Cartridge&British Imperial Cartridge page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Imperial\+\_\+\+Columbier@{Imperial\+\_\+\+Columbier}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Imperial\+\_\+\+Columbier@{Imperial\+\_\+\+Columbier}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a37735030296bd46b1ed2803d624ede18}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a37735030296bd46b1ed2803d624ede18}} 
+Imperial\+\_\+\+Columbier&British Imperial Columbier page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Imperial\+\_\+\+Copy\+\_\+\+Draught@{Imperial\+\_\+\+Copy\+\_\+\+Draught}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Imperial\+\_\+\+Copy\+\_\+\+Draught@{Imperial\+\_\+\+Copy\+\_\+\+Draught}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8abf9ffe649ab825d8024126c96f59098a}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8abf9ffe649ab825d8024126c96f59098a}} 
+Imperial\+\_\+\+Copy\+\_\+\+Draught&British Imperial Copy Draught page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Imperial\+\_\+\+Crown@{Imperial\+\_\+\+Crown}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Imperial\+\_\+\+Crown@{Imperial\+\_\+\+Crown}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8abdf27324df8b74572ef403b8415eeabf}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8abdf27324df8b74572ef403b8415eeabf}} 
+Imperial\+\_\+\+Crown&British Imperial Crown page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Imperial\+\_\+\+Demy@{Imperial\+\_\+\+Demy}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Imperial\+\_\+\+Demy@{Imperial\+\_\+\+Demy}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a4f1d4e3bbf1eeb4c45d8a5f0dd1970de}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a4f1d4e3bbf1eeb4c45d8a5f0dd1970de}} 
+Imperial\+\_\+\+Demy&British Imperial Demy page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Imperial\+\_\+\+Double\+\_\+\+Demy@{Imperial\+\_\+\+Double\+\_\+\+Demy}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Imperial\+\_\+\+Double\+\_\+\+Demy@{Imperial\+\_\+\+Double\+\_\+\+Demy}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae8155475ef65c0f20f735c021f1ff70f}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae8155475ef65c0f20f735c021f1ff70f}} 
+Imperial\+\_\+\+Double\+\_\+\+Demy&British Imperial Quarto page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Imperial\+\_\+\+Quad\+\_\+\+Demy@{Imperial\+\_\+\+Quad\+\_\+\+Demy}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Imperial\+\_\+\+Quad\+\_\+\+Demy@{Imperial\+\_\+\+Quad\+\_\+\+Demy}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac0278e286839e051e352a0d63b6ee18d}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac0278e286839e051e352a0d63b6ee18d}} 
+Imperial\+\_\+\+Quad\+\_\+\+Demy&British Imperial Double Demy page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Imperial\+\_\+\+Elephant@{Imperial\+\_\+\+Elephant}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Imperial\+\_\+\+Elephant@{Imperial\+\_\+\+Elephant}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8afd80ca3c4b60f861249a0ae4a3010ba9}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8afd80ca3c4b60f861249a0ae4a3010ba9}} 
+Imperial\+\_\+\+Elephant&British Imperial Elephant page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Imperial\+\_\+\+Double\+\_\+\+Elephant@{Imperial\+\_\+\+Double\+\_\+\+Elephant}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Imperial\+\_\+\+Double\+\_\+\+Elephant@{Imperial\+\_\+\+Double\+\_\+\+Elephant}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9a1e71714ddaa67db2916ac0f04134d8}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a9a1e71714ddaa67db2916ac0f04134d8}} 
+Imperial\+\_\+\+Double\+\_\+\+Elephant&British Imperial Double Elephant page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Imperial\+\_\+\+Emperor@{Imperial\+\_\+\+Emperor}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Imperial\+\_\+\+Emperor@{Imperial\+\_\+\+Emperor}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a090a7818a38c5d9f224988a4119da6d5}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a090a7818a38c5d9f224988a4119da6d5}} 
+Imperial\+\_\+\+Emperor&British Imperial Emperor page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Imperial\+\_\+\+Foolscap@{Imperial\+\_\+\+Foolscap}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Imperial\+\_\+\+Foolscap@{Imperial\+\_\+\+Foolscap}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae9513b25f2860a9a5eb77c93e7c98e90}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae9513b25f2860a9a5eb77c93e7c98e90}} 
+Imperial\+\_\+\+Foolscap&British Imperial Foolscap page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Imperial\+\_\+\+Small\+\_\+\+Foolscap@{Imperial\+\_\+\+Small\+\_\+\+Foolscap}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Imperial\+\_\+\+Small\+\_\+\+Foolscap@{Imperial\+\_\+\+Small\+\_\+\+Foolscap}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa00589b672cd15841f4d08c5c98c5008}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa00589b672cd15841f4d08c5c98c5008}} 
+Imperial\+\_\+\+Small\+\_\+\+Foolscap&British Imperial Small Foolscap page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Imperial\+\_\+\+Grand\+\_\+\+Eagle@{Imperial\+\_\+\+Grand\+\_\+\+Eagle}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Imperial\+\_\+\+Grand\+\_\+\+Eagle@{Imperial\+\_\+\+Grand\+\_\+\+Eagle}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2bdc973dd838f1c4afdec5207377067c}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2bdc973dd838f1c4afdec5207377067c}} 
+Imperial\+\_\+\+Grand\+\_\+\+Eagle&British Imperial Grand Eagle page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Imperial\+\_\+\+Imperial@{Imperial\+\_\+\+Imperial}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Imperial\+\_\+\+Imperial@{Imperial\+\_\+\+Imperial}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a81cd89c6dde11ad31b47c3e752b9808b}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a81cd89c6dde11ad31b47c3e752b9808b}} 
+Imperial\+\_\+\+Imperial&British Imperial Imperial page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Imperial\+\_\+\+Medium@{Imperial\+\_\+\+Medium}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Imperial\+\_\+\+Medium@{Imperial\+\_\+\+Medium}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2e1a12ba28c9bf7d684618c82cbe8560}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2e1a12ba28c9bf7d684618c82cbe8560}} 
+Imperial\+\_\+\+Medium&British Imperial Medium page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Imperial\+\_\+\+Monarch@{Imperial\+\_\+\+Monarch}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Imperial\+\_\+\+Monarch@{Imperial\+\_\+\+Monarch}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a7faffaefed0682f3cdfc7bbaab9d488d}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a7faffaefed0682f3cdfc7bbaab9d488d}} 
+Imperial\+\_\+\+Monarch&British Imperial Monarch page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Imperial\+\_\+\+Post@{Imperial\+\_\+\+Post}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Imperial\+\_\+\+Post@{Imperial\+\_\+\+Post}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aee9a5f5681b905527c9a46236222c176}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aee9a5f5681b905527c9a46236222c176}} 
+Imperial\+\_\+\+Post&British Imperial Post page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Imperial\+\_\+\+Sheet\+\_\+\+Half\+\_\+\+Post@{Imperial\+\_\+\+Sheet\+\_\+\+Half\+\_\+\+Post}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Imperial\+\_\+\+Sheet\+\_\+\+Half\+\_\+\+Post@{Imperial\+\_\+\+Sheet\+\_\+\+Half\+\_\+\+Post}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae356ea1df3e0072f562c82d8891aea95}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae356ea1df3e0072f562c82d8891aea95}} 
+Imperial\+\_\+\+Sheet\+\_\+\+Half\+\_\+\+Post&British Imperial Sheet, Half Post page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Imperial\+\_\+\+Pinched\+\_\+\+Post@{Imperial\+\_\+\+Pinched\+\_\+\+Post}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Imperial\+\_\+\+Pinched\+\_\+\+Post@{Imperial\+\_\+\+Pinched\+\_\+\+Post}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af3a89ef8af1e704307ed0c2f60e4259f}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af3a89ef8af1e704307ed0c2f60e4259f}} 
+Imperial\+\_\+\+Pinched\+\_\+\+Post&British Imperial Pinched Post page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Imperial\+\_\+\+Large\+\_\+\+Post@{Imperial\+\_\+\+Large\+\_\+\+Post}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Imperial\+\_\+\+Large\+\_\+\+Post@{Imperial\+\_\+\+Large\+\_\+\+Post}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6cae46544cb4f15fd32ce2d3e096ef8a}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6cae46544cb4f15fd32ce2d3e096ef8a}} 
+Imperial\+\_\+\+Large\+\_\+\+Post&British Imperial Large Post page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Imperial\+\_\+\+Double\+\_\+\+Large\+\_\+\+Post@{Imperial\+\_\+\+Double\+\_\+\+Large\+\_\+\+Post}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Imperial\+\_\+\+Double\+\_\+\+Large\+\_\+\+Post@{Imperial\+\_\+\+Double\+\_\+\+Large\+\_\+\+Post}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a720ad4ec90d451b55b895165c94e0f84}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a720ad4ec90d451b55b895165c94e0f84}} 
+Imperial\+\_\+\+Double\+\_\+\+Large\+\_\+\+Post&British Imperial Double Large Post page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Imperial\+\_\+\+Double\+\_\+\+Post@{Imperial\+\_\+\+Double\+\_\+\+Post}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Imperial\+\_\+\+Double\+\_\+\+Post@{Imperial\+\_\+\+Double\+\_\+\+Post}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a06dc90badbac72373f2dc53cb741779e}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a06dc90badbac72373f2dc53cb741779e}} 
+Imperial\+\_\+\+Double\+\_\+\+Post&British Imperial Double Post page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Imperial\+\_\+\+Pott@{Imperial\+\_\+\+Pott}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Imperial\+\_\+\+Pott@{Imperial\+\_\+\+Pott}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad7248d4d56298d599b04baa8ff6e76e9}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ad7248d4d56298d599b04baa8ff6e76e9}} 
+Imperial\+\_\+\+Pott&British Imperial Pott page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Imperial\+\_\+\+Princess@{Imperial\+\_\+\+Princess}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Imperial\+\_\+\+Princess@{Imperial\+\_\+\+Princess}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8adedcddcefdfea7d5718d7cf06eb5cdd7}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8adedcddcefdfea7d5718d7cf06eb5cdd7}} 
+Imperial\+\_\+\+Princess&British Imperial Princess page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Imperial\+\_\+\+Quarto@{Imperial\+\_\+\+Quarto}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Imperial\+\_\+\+Quarto@{Imperial\+\_\+\+Quarto}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ab4b2b0c1f9076b688275288b72b8b184}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ab4b2b0c1f9076b688275288b72b8b184}} 
+Imperial\+\_\+\+Quarto&British Imperial Quarto page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Imperial\+\_\+\+Royal@{Imperial\+\_\+\+Royal}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Imperial\+\_\+\+Royal@{Imperial\+\_\+\+Royal}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a4437a127d151ac598c815257c833302f}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a4437a127d151ac598c815257c833302f}} 
+Imperial\+\_\+\+Royal&British Imperial Royal page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Imperial\+\_\+\+Super\+\_\+\+Royal@{Imperial\+\_\+\+Super\+\_\+\+Royal}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Imperial\+\_\+\+Super\+\_\+\+Royal@{Imperial\+\_\+\+Super\+\_\+\+Royal}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a97d402bf0088b33afc4cfe6d4f8527d8}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a97d402bf0088b33afc4cfe6d4f8527d8}} 
+Imperial\+\_\+\+Super\+\_\+\+Royal&British Imperial Super Royal page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Transitional\+\_\+\+P\+A0@{Transitional\+\_\+\+P\+A0}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Transitional\+\_\+\+P\+A0@{Transitional\+\_\+\+P\+A0}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2bd0b96025637e002b477d5a5f2ec322}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2bd0b96025637e002b477d5a5f2ec322}} 
+Transitional\+\_\+\+P\+A0&Transtional P\+A0 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Transitional\+\_\+\+P\+A1@{Transitional\+\_\+\+P\+A1}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Transitional\+\_\+\+P\+A1@{Transitional\+\_\+\+P\+A1}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a88606d080886767a81807a8d526e2433}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a88606d080886767a81807a8d526e2433}} 
+Transitional\+\_\+\+P\+A1&Transtional P\+A1 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Transitional\+\_\+\+P\+A2@{Transitional\+\_\+\+P\+A2}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Transitional\+\_\+\+P\+A2@{Transitional\+\_\+\+P\+A2}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a4f90f631be0e21cb9259bc500e94a69a}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a4f90f631be0e21cb9259bc500e94a69a}} 
+Transitional\+\_\+\+P\+A2&Transtional P\+A2 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Transitional\+\_\+\+P\+A3@{Transitional\+\_\+\+P\+A3}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Transitional\+\_\+\+P\+A3@{Transitional\+\_\+\+P\+A3}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af0efbf1a2c22d39ddf4e5865ff237d29}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af0efbf1a2c22d39ddf4e5865ff237d29}} 
+Transitional\+\_\+\+P\+A3&Transtional P\+A3 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Transitional\+\_\+\+P\+A4@{Transitional\+\_\+\+P\+A4}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Transitional\+\_\+\+P\+A4@{Transitional\+\_\+\+P\+A4}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8abed8ac939d25a2b158a925a65253a3c8}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8abed8ac939d25a2b158a925a65253a3c8}} 
+Transitional\+\_\+\+P\+A4&Transtional P\+A4 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Transitional\+\_\+\+P\+A5@{Transitional\+\_\+\+P\+A5}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Transitional\+\_\+\+P\+A5@{Transitional\+\_\+\+P\+A5}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a780829099bf6474974ee04dde592d594}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a780829099bf6474974ee04dde592d594}} 
+Transitional\+\_\+\+P\+A5&Transtional P\+A5 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Transitional\+\_\+\+P\+A6@{Transitional\+\_\+\+P\+A6}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Transitional\+\_\+\+P\+A6@{Transitional\+\_\+\+P\+A6}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2752e3b82aaeec7e6060e94243e42c3f}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2752e3b82aaeec7e6060e94243e42c3f}} 
+Transitional\+\_\+\+P\+A6&Transtional P\+A6 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Transitional\+\_\+\+P\+A7@{Transitional\+\_\+\+P\+A7}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Transitional\+\_\+\+P\+A7@{Transitional\+\_\+\+P\+A7}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2bdba121892307bff58ddc6d2442ee73}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2bdba121892307bff58ddc6d2442ee73}} 
+Transitional\+\_\+\+P\+A7&Transtional P\+A7 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Transitional\+\_\+\+P\+A8@{Transitional\+\_\+\+P\+A8}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Transitional\+\_\+\+P\+A8@{Transitional\+\_\+\+P\+A8}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af9fc7997d31748b859b5470c694d7ec0}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af9fc7997d31748b859b5470c694d7ec0}} 
+Transitional\+\_\+\+P\+A8&Transtional P\+A8 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Transitional\+\_\+\+P\+A9@{Transitional\+\_\+\+P\+A9}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Transitional\+\_\+\+P\+A9@{Transitional\+\_\+\+P\+A9}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2142eb79e096a05eefef4b9764c2efa8}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a2142eb79e096a05eefef4b9764c2efa8}} 
+Transitional\+\_\+\+P\+A9&Transtional P\+A9 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Transitional\+\_\+\+P\+A10@{Transitional\+\_\+\+P\+A10}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Transitional\+\_\+\+P\+A10@{Transitional\+\_\+\+P\+A10}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6332f9d43a137812e259c93269dcd567}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6332f9d43a137812e259c93269dcd567}} 
+Transitional\+\_\+\+P\+A10&Transtional P\+A10 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Transitional\+\_\+\+F0@{Transitional\+\_\+\+F0}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Transitional\+\_\+\+F0@{Transitional\+\_\+\+F0}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a138e364f639fe9407b20b0e088019df3}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a138e364f639fe9407b20b0e088019df3}} 
+Transitional\+\_\+\+F0&Transtional F0 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Transitional\+\_\+\+F1@{Transitional\+\_\+\+F1}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Transitional\+\_\+\+F1@{Transitional\+\_\+\+F1}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a7ec8b8a470442d493d2aadc8aad80cc3}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a7ec8b8a470442d493d2aadc8aad80cc3}} 
+Transitional\+\_\+\+F1&Transtional F1 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Transitional\+\_\+\+F2@{Transitional\+\_\+\+F2}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Transitional\+\_\+\+F2@{Transitional\+\_\+\+F2}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa9bde4b5a87e381747730ad8292280dd}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa9bde4b5a87e381747730ad8292280dd}} 
+Transitional\+\_\+\+F2&Transtional F2 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Transitional\+\_\+\+F3@{Transitional\+\_\+\+F3}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Transitional\+\_\+\+F3@{Transitional\+\_\+\+F3}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a01f99e697b8f81a054808682e4e95775}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a01f99e697b8f81a054808682e4e95775}} 
+Transitional\+\_\+\+F3&Transtional F3 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Transitional\+\_\+\+F4@{Transitional\+\_\+\+F4}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Transitional\+\_\+\+F4@{Transitional\+\_\+\+F4}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ab9f83d5e894e798fdbc99ad79350cc7f}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ab9f83d5e894e798fdbc99ad79350cc7f}} 
+Transitional\+\_\+\+F4&Transtional F4 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Transitional\+\_\+\+F5@{Transitional\+\_\+\+F5}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Transitional\+\_\+\+F5@{Transitional\+\_\+\+F5}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a8ec0c643ef422b298e0c4b7ef6386065}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a8ec0c643ef422b298e0c4b7ef6386065}} 
+Transitional\+\_\+\+F5&Transtional F5 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Transitional\+\_\+\+F6@{Transitional\+\_\+\+F6}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Transitional\+\_\+\+F6@{Transitional\+\_\+\+F6}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae07f0506ae5d229a99900655f5c31b5f}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae07f0506ae5d229a99900655f5c31b5f}} 
+Transitional\+\_\+\+F6&Transtional F6 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Transitional\+\_\+\+F7@{Transitional\+\_\+\+F7}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Transitional\+\_\+\+F7@{Transitional\+\_\+\+F7}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aaff12974d482eeab88eecdcc84d930ab}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aaff12974d482eeab88eecdcc84d930ab}} 
+Transitional\+\_\+\+F7&Transtional F7 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Transitional\+\_\+\+F8@{Transitional\+\_\+\+F8}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Transitional\+\_\+\+F8@{Transitional\+\_\+\+F8}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0b0d291c37dd083ee5c4952284b8c10e}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0b0d291c37dd083ee5c4952284b8c10e}} 
+Transitional\+\_\+\+F8&Transtional F8 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Transitional\+\_\+\+F9@{Transitional\+\_\+\+F9}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Transitional\+\_\+\+F9@{Transitional\+\_\+\+F9}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a08c65697a3afd5d74498ae1f518b1988}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a08c65697a3afd5d74498ae1f518b1988}} 
+Transitional\+\_\+\+F9&Transtional F9 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Transitional\+\_\+\+F10@{Transitional\+\_\+\+F10}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!Transitional\+\_\+\+F10@{Transitional\+\_\+\+F10}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a32922c81616da9c5fbe9c28b6ebae1db}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a32922c81616da9c5fbe9c28b6ebae1db}} 
+Transitional\+\_\+\+F10&Transtional F10 page size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+Envelope\+\_\+\+DL@{I\+S\+O\+\_\+\+Envelope\+\_\+\+DL}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+Envelope\+\_\+\+DL@{I\+S\+O\+\_\+\+Envelope\+\_\+\+DL}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0e192da3bfe3fc7e6c4b4e0bd8829c4a}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0e192da3bfe3fc7e6c4b4e0bd8829c4a}} 
+I\+S\+O\+\_\+\+Envelope\+\_\+\+DL&I\+SO Envelope DL size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+Envelope\+\_\+\+B4@{I\+S\+O\+\_\+\+Envelope\+\_\+\+B4}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+Envelope\+\_\+\+B4@{I\+S\+O\+\_\+\+Envelope\+\_\+\+B4}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a42fc415a676b617157b1db20737b4098}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a42fc415a676b617157b1db20737b4098}} 
+I\+S\+O\+\_\+\+Envelope\+\_\+\+B4&I\+SO Envelope B4 size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+Envelope\+\_\+\+B5@{I\+S\+O\+\_\+\+Envelope\+\_\+\+B5}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+Envelope\+\_\+\+B5@{I\+S\+O\+\_\+\+Envelope\+\_\+\+B5}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a887dc48104a63686d83a7565ead66fa3}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a887dc48104a63686d83a7565ead66fa3}} 
+I\+S\+O\+\_\+\+Envelope\+\_\+\+B5&I\+SO Envelope B5 size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+Envelope\+\_\+\+B6@{I\+S\+O\+\_\+\+Envelope\+\_\+\+B6}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+Envelope\+\_\+\+B6@{I\+S\+O\+\_\+\+Envelope\+\_\+\+B6}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6a99dc826bb1cd07356f3f0f943fe737}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6a99dc826bb1cd07356f3f0f943fe737}} 
+I\+S\+O\+\_\+\+Envelope\+\_\+\+B6&I\+SO Envelope B6 size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+Envelope\+\_\+\+C0@{I\+S\+O\+\_\+\+Envelope\+\_\+\+C0}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+Envelope\+\_\+\+C0@{I\+S\+O\+\_\+\+Envelope\+\_\+\+C0}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a5154ebb19b30a49fe75f8b9741985087}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a5154ebb19b30a49fe75f8b9741985087}} 
+I\+S\+O\+\_\+\+Envelope\+\_\+\+C0&I\+SO Envelope C0 size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+Envelope\+\_\+\+C1@{I\+S\+O\+\_\+\+Envelope\+\_\+\+C1}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+Envelope\+\_\+\+C1@{I\+S\+O\+\_\+\+Envelope\+\_\+\+C1}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aaba3f3a5fde71a528278ca295ad153b1}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aaba3f3a5fde71a528278ca295ad153b1}} 
+I\+S\+O\+\_\+\+Envelope\+\_\+\+C1&I\+SO Envelope C1 size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+Envelope\+\_\+\+C2@{I\+S\+O\+\_\+\+Envelope\+\_\+\+C2}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+Envelope\+\_\+\+C2@{I\+S\+O\+\_\+\+Envelope\+\_\+\+C2}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6117302c193e7f2f6a4ca34163bbf2d6}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a6117302c193e7f2f6a4ca34163bbf2d6}} 
+I\+S\+O\+\_\+\+Envelope\+\_\+\+C2&I\+SO Envelope C2 size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+Envelope\+\_\+\+C3@{I\+S\+O\+\_\+\+Envelope\+\_\+\+C3}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+Envelope\+\_\+\+C3@{I\+S\+O\+\_\+\+Envelope\+\_\+\+C3}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a4a16783eecdc83d675598bdd53d46712}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a4a16783eecdc83d675598bdd53d46712}} 
+I\+S\+O\+\_\+\+Envelope\+\_\+\+C3&I\+SO Envelope C3 size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+Envelope\+\_\+\+C4@{I\+S\+O\+\_\+\+Envelope\+\_\+\+C4}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+Envelope\+\_\+\+C4@{I\+S\+O\+\_\+\+Envelope\+\_\+\+C4}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac944fff5c14f1c6d8359f75f9efb7ee6}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac944fff5c14f1c6d8359f75f9efb7ee6}} 
+I\+S\+O\+\_\+\+Envelope\+\_\+\+C4&I\+SO Envelope C4 size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+Envelope\+\_\+\+C5@{I\+S\+O\+\_\+\+Envelope\+\_\+\+C5}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+Envelope\+\_\+\+C5@{I\+S\+O\+\_\+\+Envelope\+\_\+\+C5}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a78e238dd968ff66571333aa7fe1e2d83}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a78e238dd968ff66571333aa7fe1e2d83}} 
+I\+S\+O\+\_\+\+Envelope\+\_\+\+C5&I\+SO Envelope C5 size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+Envelope\+\_\+\+C6\+\_\+\+C5@{I\+S\+O\+\_\+\+Envelope\+\_\+\+C6\+\_\+\+C5}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+Envelope\+\_\+\+C6\+\_\+\+C5@{I\+S\+O\+\_\+\+Envelope\+\_\+\+C6\+\_\+\+C5}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae9da7f965fd5e7c240aa1d98655974d0}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae9da7f965fd5e7c240aa1d98655974d0}} 
+I\+S\+O\+\_\+\+Envelope\+\_\+\+C6\+\_\+\+C5&I\+SO Envelope C6/\+C5 size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+Envelope\+\_\+\+C6@{I\+S\+O\+\_\+\+Envelope\+\_\+\+C6}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+Envelope\+\_\+\+C6@{I\+S\+O\+\_\+\+Envelope\+\_\+\+C6}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a663490a48488ee00e93420d0f804f3a0}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a663490a48488ee00e93420d0f804f3a0}} 
+I\+S\+O\+\_\+\+Envelope\+\_\+\+C6&I\+SO Envelope C6 size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+Envelope\+\_\+\+C7\+\_\+\+C6@{I\+S\+O\+\_\+\+Envelope\+\_\+\+C7\+\_\+\+C6}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+Envelope\+\_\+\+C7\+\_\+\+C6@{I\+S\+O\+\_\+\+Envelope\+\_\+\+C7\+\_\+\+C6}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aec145f6a0a625c085bf462fa08820937}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aec145f6a0a625c085bf462fa08820937}} 
+I\+S\+O\+\_\+\+Envelope\+\_\+\+C7\+\_\+\+C6&I\+SO Envelope C7/\+C6 size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+Envelope\+\_\+\+C7@{I\+S\+O\+\_\+\+Envelope\+\_\+\+C7}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+Envelope\+\_\+\+C7@{I\+S\+O\+\_\+\+Envelope\+\_\+\+C7}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a4a83b2a717f229fa7c202cad1c9ab58d}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a4a83b2a717f229fa7c202cad1c9ab58d}} 
+I\+S\+O\+\_\+\+Envelope\+\_\+\+C7&I\+SO Envelope C7 size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+S\+O\+\_\+\+Envelope\+\_\+\+E4@{I\+S\+O\+\_\+\+Envelope\+\_\+\+E4}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!I\+S\+O\+\_\+\+Envelope\+\_\+\+E4@{I\+S\+O\+\_\+\+Envelope\+\_\+\+E4}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a07bdaf217accaffa8ba8ba23dc4017b2}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a07bdaf217accaffa8ba8ba23dc4017b2}} 
+I\+S\+O\+\_\+\+Envelope\+\_\+\+E4&I\+SO Envelope E4 size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Envelope\+\_\+6\+\_\+14@{U\+S\+\_\+\+Envelope\+\_\+6\+\_\+14}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Envelope\+\_\+6\+\_\+14@{U\+S\+\_\+\+Envelope\+\_\+6\+\_\+14}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8accb02713d7c98c4d82aa2c2823daee21}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8accb02713d7c98c4d82aa2c2823daee21}} 
+U\+S\+\_\+\+Envelope\+\_\+6\+\_\+14&US Envelope 6¼ size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Envelope\+\_\+6\+\_\+34@{U\+S\+\_\+\+Envelope\+\_\+6\+\_\+34}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Envelope\+\_\+6\+\_\+34@{U\+S\+\_\+\+Envelope\+\_\+6\+\_\+34}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac60bb0b22cf1033399e8f25ba5856dda}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac60bb0b22cf1033399e8f25ba5856dda}} 
+U\+S\+\_\+\+Envelope\+\_\+6\+\_\+34&US Envelope 6¼ size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Envelope\+\_\+7@{U\+S\+\_\+\+Envelope\+\_\+7}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Envelope\+\_\+7@{U\+S\+\_\+\+Envelope\+\_\+7}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aaef18f73bb2de0eda9d9f67d6fea0670}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aaef18f73bb2de0eda9d9f67d6fea0670}} 
+U\+S\+\_\+\+Envelope\+\_\+7&US Envelope 7 size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Envelope\+\_\+7\+\_\+34\+\_\+\+Monarch@{U\+S\+\_\+\+Envelope\+\_\+7\+\_\+34\+\_\+\+Monarch}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Envelope\+\_\+7\+\_\+34\+\_\+\+Monarch@{U\+S\+\_\+\+Envelope\+\_\+7\+\_\+34\+\_\+\+Monarch}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a405ad2ca134fda6ce7a348502b06003d}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a405ad2ca134fda6ce7a348502b06003d}} 
+U\+S\+\_\+\+Envelope\+\_\+7\+\_\+34\+\_\+\+Monarch&US Envelope 7¾ size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Envelope\+\_\+8\+\_\+58@{U\+S\+\_\+\+Envelope\+\_\+8\+\_\+58}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Envelope\+\_\+8\+\_\+58@{U\+S\+\_\+\+Envelope\+\_\+8\+\_\+58}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa3acf20fd97da8be3d362e36552800c8}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa3acf20fd97da8be3d362e36552800c8}} 
+U\+S\+\_\+\+Envelope\+\_\+8\+\_\+58&US Envelope 8⅝ size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Envelope\+\_\+9@{U\+S\+\_\+\+Envelope\+\_\+9}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Envelope\+\_\+9@{U\+S\+\_\+\+Envelope\+\_\+9}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0a879bc77d7b304f9e4206cce768ec03}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0a879bc77d7b304f9e4206cce768ec03}} 
+U\+S\+\_\+\+Envelope\+\_\+9&US Envelope 9 size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Envelope\+\_\+10@{U\+S\+\_\+\+Envelope\+\_\+10}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Envelope\+\_\+10@{U\+S\+\_\+\+Envelope\+\_\+10}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aabd78b5a97637b9e805a5a18c59dfa05}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aabd78b5a97637b9e805a5a18c59dfa05}} 
+U\+S\+\_\+\+Envelope\+\_\+10&US Envelope 10 size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Envelope\+\_\+11@{U\+S\+\_\+\+Envelope\+\_\+11}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Envelope\+\_\+11@{U\+S\+\_\+\+Envelope\+\_\+11}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a896527d3ca703b7a816fc29e9746511f}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a896527d3ca703b7a816fc29e9746511f}} 
+U\+S\+\_\+\+Envelope\+\_\+11&US Envelope 11 size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Envelope\+\_\+12@{U\+S\+\_\+\+Envelope\+\_\+12}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Envelope\+\_\+12@{U\+S\+\_\+\+Envelope\+\_\+12}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8abadcbc7140a273c1a75b04722dc8da5c}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8abadcbc7140a273c1a75b04722dc8da5c}} 
+U\+S\+\_\+\+Envelope\+\_\+12&US Envelope 12 size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Envelope\+\_\+14@{U\+S\+\_\+\+Envelope\+\_\+14}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Envelope\+\_\+14@{U\+S\+\_\+\+Envelope\+\_\+14}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a749cbec96dcb23e9d7482de7ae88057a}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a749cbec96dcb23e9d7482de7ae88057a}} 
+U\+S\+\_\+\+Envelope\+\_\+14&US Envelope 14 size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Envelope\+\_\+16@{U\+S\+\_\+\+Envelope\+\_\+16}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Envelope\+\_\+16@{U\+S\+\_\+\+Envelope\+\_\+16}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a1aed4c9a5cb4de8d26b5b94fac8f6b12}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a1aed4c9a5cb4de8d26b5b94fac8f6b12}} 
+U\+S\+\_\+\+Envelope\+\_\+16&US Envelope 16 size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Envelope\+\_\+\+A1@{U\+S\+\_\+\+Envelope\+\_\+\+A1}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Envelope\+\_\+\+A1@{U\+S\+\_\+\+Envelope\+\_\+\+A1}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8acc11e6aaf50c542f9f1869d483e4d851}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8acc11e6aaf50c542f9f1869d483e4d851}} 
+U\+S\+\_\+\+Envelope\+\_\+\+A1&US Envelope A1 size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Envelope\+\_\+\+A2\+\_\+\+Lady\+\_\+\+Grey@{U\+S\+\_\+\+Envelope\+\_\+\+A2\+\_\+\+Lady\+\_\+\+Grey}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Envelope\+\_\+\+A2\+\_\+\+Lady\+\_\+\+Grey@{U\+S\+\_\+\+Envelope\+\_\+\+A2\+\_\+\+Lady\+\_\+\+Grey}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af9071871ab0b49edbbc0c4e35ac58add}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8af9071871ab0b49edbbc0c4e35ac58add}} 
+U\+S\+\_\+\+Envelope\+\_\+\+A2\+\_\+\+Lady\+\_\+\+Grey&US Envelope A2 (Lady Grey) size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Envelope\+\_\+\+A4@{U\+S\+\_\+\+Envelope\+\_\+\+A4}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Envelope\+\_\+\+A4@{U\+S\+\_\+\+Envelope\+\_\+\+A4}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0212b281486a9290bbb8fd2241a91f77}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a0212b281486a9290bbb8fd2241a91f77}} 
+U\+S\+\_\+\+Envelope\+\_\+\+A4&US Envelope A4 size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Envelope\+\_\+\+A6\+\_\+\+Thompsons\+\_\+\+Standard@{U\+S\+\_\+\+Envelope\+\_\+\+A6\+\_\+\+Thompsons\+\_\+\+Standard}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Envelope\+\_\+\+A6\+\_\+\+Thompsons\+\_\+\+Standard@{U\+S\+\_\+\+Envelope\+\_\+\+A6\+\_\+\+Thompsons\+\_\+\+Standard}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a61609e63d016bf01b4d8a58ce0cd33d3}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a61609e63d016bf01b4d8a58ce0cd33d3}} 
+U\+S\+\_\+\+Envelope\+\_\+\+A6\+\_\+\+Thompsons\+\_\+\+Standard&US Envelope A6 (Thompsons Standard) size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Envelope\+\_\+\+A7\+\_\+\+Besselheim@{U\+S\+\_\+\+Envelope\+\_\+\+A7\+\_\+\+Besselheim}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Envelope\+\_\+\+A7\+\_\+\+Besselheim@{U\+S\+\_\+\+Envelope\+\_\+\+A7\+\_\+\+Besselheim}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aec9461e0ad6c675822af0245125db21c}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aec9461e0ad6c675822af0245125db21c}} 
+U\+S\+\_\+\+Envelope\+\_\+\+A7\+\_\+\+Besselheim&US Envelope A7 (Besselheim) size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Envelope\+\_\+\+A8\+\_\+\+Carrs@{U\+S\+\_\+\+Envelope\+\_\+\+A8\+\_\+\+Carrs}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Envelope\+\_\+\+A8\+\_\+\+Carrs@{U\+S\+\_\+\+Envelope\+\_\+\+A8\+\_\+\+Carrs}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a808217319739f000da2e1b0cc19d5bf8}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a808217319739f000da2e1b0cc19d5bf8}} 
+U\+S\+\_\+\+Envelope\+\_\+\+A8\+\_\+\+Carrs&US Envelope A8 (Carrs) size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Envelope\+\_\+\+A9\+\_\+\+Diplomat@{U\+S\+\_\+\+Envelope\+\_\+\+A9\+\_\+\+Diplomat}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Envelope\+\_\+\+A9\+\_\+\+Diplomat@{U\+S\+\_\+\+Envelope\+\_\+\+A9\+\_\+\+Diplomat}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a68be24ca8a025777ee19147ca287a1cd}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a68be24ca8a025777ee19147ca287a1cd}} 
+U\+S\+\_\+\+Envelope\+\_\+\+A9\+\_\+\+Diplomat&US Envelope A9 (Diplomat) size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Envelope\+\_\+\+A10\+\_\+\+Willow@{U\+S\+\_\+\+Envelope\+\_\+\+A10\+\_\+\+Willow}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Envelope\+\_\+\+A10\+\_\+\+Willow@{U\+S\+\_\+\+Envelope\+\_\+\+A10\+\_\+\+Willow}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a525a6fab045860fc93da77316528e95e}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a525a6fab045860fc93da77316528e95e}} 
+U\+S\+\_\+\+Envelope\+\_\+\+A10\+\_\+\+Willow&US Envelope A10 (Willow) size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Envelope\+\_\+\+A\+\_\+\+Long@{U\+S\+\_\+\+Envelope\+\_\+\+A\+\_\+\+Long}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Envelope\+\_\+\+A\+\_\+\+Long@{U\+S\+\_\+\+Envelope\+\_\+\+A\+\_\+\+Long}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa6df8ef333e7cae1893fea6b9bb1e3d8}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa6df8ef333e7cae1893fea6b9bb1e3d8}} 
+U\+S\+\_\+\+Envelope\+\_\+\+A\+\_\+\+Long&US Envelope A Long size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Envelope\+\_\+1@{U\+S\+\_\+\+Envelope\+\_\+1}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Envelope\+\_\+1@{U\+S\+\_\+\+Envelope\+\_\+1}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8add02f7483c3c36a129368330b646da76}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8add02f7483c3c36a129368330b646da76}} 
+U\+S\+\_\+\+Envelope\+\_\+1&US Envelope 1 size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Envelope\+\_\+1\+\_\+34@{U\+S\+\_\+\+Envelope\+\_\+1\+\_\+34}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Envelope\+\_\+1\+\_\+34@{U\+S\+\_\+\+Envelope\+\_\+1\+\_\+34}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac34900869929a1215408400549d30037}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac34900869929a1215408400549d30037}} 
+U\+S\+\_\+\+Envelope\+\_\+1\+\_\+34&US Envelope 1¾ size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Envelope\+\_\+3@{U\+S\+\_\+\+Envelope\+\_\+3}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Envelope\+\_\+3@{U\+S\+\_\+\+Envelope\+\_\+3}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a14290dc05ea61aac7e2abbe8e78ae5d1}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a14290dc05ea61aac7e2abbe8e78ae5d1}} 
+U\+S\+\_\+\+Envelope\+\_\+3&US Envelope 3 size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Envelope\+\_\+6@{U\+S\+\_\+\+Envelope\+\_\+6}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Envelope\+\_\+6@{U\+S\+\_\+\+Envelope\+\_\+6}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa00b4876da3b77cd6a0667ce10cf9590}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aa00b4876da3b77cd6a0667ce10cf9590}} 
+U\+S\+\_\+\+Envelope\+\_\+6&US Envelope 6 size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Envelope\+\_\+8@{U\+S\+\_\+\+Envelope\+\_\+8}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Envelope\+\_\+8@{U\+S\+\_\+\+Envelope\+\_\+8}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae6c765bcc7fe8c1ff1dc0f17683c730c}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ae6c765bcc7fe8c1ff1dc0f17683c730c}} 
+U\+S\+\_\+\+Envelope\+\_\+8&US Envelope 8 size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Envelope\+\_\+9\+\_\+34@{U\+S\+\_\+\+Envelope\+\_\+9\+\_\+34}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Envelope\+\_\+9\+\_\+34@{U\+S\+\_\+\+Envelope\+\_\+9\+\_\+34}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a5718a4a25e1e9b1011c0ae89588641bb}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a5718a4a25e1e9b1011c0ae89588641bb}} 
+U\+S\+\_\+\+Envelope\+\_\+9\+\_\+34&US Envelope 9¾ size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Envelope\+\_\+10\+\_\+12@{U\+S\+\_\+\+Envelope\+\_\+10\+\_\+12}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Envelope\+\_\+10\+\_\+12@{U\+S\+\_\+\+Envelope\+\_\+10\+\_\+12}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a5164221ad87f32b98239b44b9951c3b6}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a5164221ad87f32b98239b44b9951c3b6}} 
+U\+S\+\_\+\+Envelope\+\_\+10\+\_\+12&US Envelope 10½ size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Envelope\+\_\+12\+\_\+12@{U\+S\+\_\+\+Envelope\+\_\+12\+\_\+12}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Envelope\+\_\+12\+\_\+12@{U\+S\+\_\+\+Envelope\+\_\+12\+\_\+12}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aae0c78b0df7261ec140a512ddbdcd5ad}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8aae0c78b0df7261ec140a512ddbdcd5ad}} 
+U\+S\+\_\+\+Envelope\+\_\+12\+\_\+12&US Envelope 12½ size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Envelope\+\_\+13\+\_\+12@{U\+S\+\_\+\+Envelope\+\_\+13\+\_\+12}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Envelope\+\_\+13\+\_\+12@{U\+S\+\_\+\+Envelope\+\_\+13\+\_\+12}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac4e21a94ee8ebd7d89fd3419d17806d6}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac4e21a94ee8ebd7d89fd3419d17806d6}} 
+U\+S\+\_\+\+Envelope\+\_\+13\+\_\+12&US Envelope 13½ size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Envelope\+\_\+14\+\_\+12@{U\+S\+\_\+\+Envelope\+\_\+14\+\_\+12}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Envelope\+\_\+14\+\_\+12@{U\+S\+\_\+\+Envelope\+\_\+14\+\_\+12}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8afb9a04a8fa5292118ceb095f28a76067}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8afb9a04a8fa5292118ceb095f28a76067}} 
+U\+S\+\_\+\+Envelope\+\_\+14\+\_\+12&US Envelope 14½ size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Envelope\+\_\+15@{U\+S\+\_\+\+Envelope\+\_\+15}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Envelope\+\_\+15@{U\+S\+\_\+\+Envelope\+\_\+15}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac77214bf627ba7621f34f7a81c00d745}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8ac77214bf627ba7621f34f7a81c00d745}} 
+U\+S\+\_\+\+Envelope\+\_\+15&US Envelope 15 size. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{U\+S\+\_\+\+Envelope\+\_\+15\+\_\+12@{U\+S\+\_\+\+Envelope\+\_\+15\+\_\+12}!Paper\+Size@{Paper\+Size}}\index{Paper\+Size@{Paper\+Size}!U\+S\+\_\+\+Envelope\+\_\+15\+\_\+12@{U\+S\+\_\+\+Envelope\+\_\+15\+\_\+12}}}\mbox{\Hypertarget{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a994250eae5e009dd7d09130639d0aedc}\label{classPaperSize_a0c3744aab15a171ac1681788f7169ed8a994250eae5e009dd7d09130639d0aedc}} 
+U\+S\+\_\+\+Envelope\+\_\+15\+\_\+12&US Envelope 15½ size. \\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classPaperSize_a829638b64da7c339430b9737e438c073}\label{classPaperSize_a829638b64da7c339430b9737e438c073}} 
+\index{Paper\+Size@{Paper\+Size}!description@{description}}
+\index{description@{description}!Paper\+Size@{Paper\+Size}}
+\subsubsection{\texorpdfstring{description()}{description()}}
+{\footnotesize\ttfamily Q\+String Paper\+Size\+::description (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8}{Type}}}]{type }\end{DoxyParamCaption}) const}
+
+
+
+A {\ttfamily Q\+String} description. 
+
+A {\ttfamily A} short string description.
+
+Supplies a simple description string, suitable for use in a drop-\/down menu or similar.
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & the Page\+Size\+::\+Type to get the description for. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the description string. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPaperSize_a185becbda27217b5df2bccc27f29bf4b}\label{classPaperSize_a185becbda27217b5df2bccc27f29bf4b}} 
+\index{Paper\+Size@{Paper\+Size}!height@{height}}
+\index{height@{height}!Paper\+Size@{Paper\+Size}}
+\subsubsection{\texorpdfstring{height()}{height()}}
+{\footnotesize\ttfamily int Paper\+Size\+::height (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8}{Type}}}]{type,  }\item[{Layout}]{layout = {\ttfamily Portrait} }\end{DoxyParamCaption}) const}
+
+
+
+Portrait height in mm, or Landscape height if the {\ttfamily Layout} parameter is set to {\ttfamily Page\+Size\+::\+Landscape}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & the Page\+Size\+::\+Type to get the height of. \\
+\hline
+{\em layout} & the optional Layout value, default Portrait. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the height in mm. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPaperSize_ac4b94da1c955bcf6b733d99f3b3a416d}\label{classPaperSize_ac4b94da1c955bcf6b733d99f3b3a416d}} 
+\index{Paper\+Size@{Paper\+Size}!to\+Inches@{to\+Inches}}
+\index{to\+Inches@{to\+Inches}!Paper\+Size@{Paper\+Size}}
+\subsubsection{\texorpdfstring{to\+Inches()}{toInches()}}
+{\footnotesize\ttfamily static double Paper\+Size\+::to\+Inches (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+static {\ttfamily to\+Inches} method. 
+
+Converts mm to inches. 
+\begin{DoxyParams}{Parameters}
+{\em value} & the mm value. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the inch value as a double. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPaperSize_ac19b82ac30b91bc4223a333a2631f65e}\label{classPaperSize_ac19b82ac30b91bc4223a333a2631f65e}} 
+\index{Paper\+Size@{Paper\+Size}!width@{width}}
+\index{width@{width}!Paper\+Size@{Paper\+Size}}
+\subsubsection{\texorpdfstring{width()}{width()}}
+{\footnotesize\ttfamily int Paper\+Size\+::width (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classPaperSize_a0c3744aab15a171ac1681788f7169ed8}{Type}}}]{type,  }\item[{Layout}]{layout = {\ttfamily Portrait} }\end{DoxyParamCaption}) const}
+
+
+
+Portrait width in mm, or Landscape width if the {\ttfamily Layout} parameter is set to {\ttfamily Page\+Size\+::\+Landscape}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & the Page\+Size\+::\+Type to get the width of. \\
+\hline
+{\em layout} & the optional Layout value, default Portrait. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the width in mm. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+papersize.\+h\item 
+papersize.\+cpp\end{DoxyCompactItemize}

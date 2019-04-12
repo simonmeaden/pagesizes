@@ -5,8 +5,9 @@
 #include <QString>
 
 /*!
-  \class PaperSize
-  \brief The PaperSize classgives values for width, height plus a simple QString definition.
+  \mainpage The PaperSize class gives values for width, height plus a simple QString definition.
+
+  \section intro_sec Introduction
 
   Defines paper sizes for a large number of standard and non-standard paper sizes
   from a number of different countries. They include the standard European (ISO) and
@@ -33,6 +34,22 @@
   got a bit carried away as a lot of these are not available except for specialists, Washi papers,
   for instance are made from the fibers of special plants and are unlikely to be used by computers,
   although they could possibly be used in a scanner, the reason I initially started this.
+
+  \section install_sec Installation
+
+  The simplest way to install it is just to include the two files papaersize.cpp and papaersize.h
+  into your application.
+
+*/
+
+/*!
+  \class PaperSize
+  \brief The PaperSize classgives values for width, height plus a simple QString definition.
+
+  Defines paper sizes for a large number of standard and non-standard paper sizes
+  from a number of different countries. They include the standard European (ISO) and
+  American (Letter etc.), Canadian (P1 etc.), Japanese (JIS) and others, plus a number of
+  non-standard traditional sizes.
 */
 class PaperSize
 {

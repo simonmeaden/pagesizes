@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['french_5fcarre',['French_Carre',['../classPaperSize.html#a0c3744aab15a171ac1681788f7169ed8af6bc9783196b74179755b15e7bc7ad32',1,'PaperSize']]],
+  ['french_5fcavalier',['French_Cavalier',['../classPaperSize.html#a0c3744aab15a171ac1681788f7169ed8af225f3cb6a278f2b76544ea20d8a9319',1,'PaperSize']]],
+  ['french_5fcloche',['French_Cloche',['../classPaperSize.html#a0c3744aab15a171ac1681788f7169ed8aa1e259ca3a0380c2ac3988ba6df3415e',1,'PaperSize']]],
+  ['french_5fcolombier_5faffiche',['French_Colombier_Affiche',['../classPaperSize.html#a0c3744aab15a171ac1681788f7169ed8a0d20f58b52422030dc886f6f08e5686d',1,'PaperSize']]],
+  ['french_5fcolombier_5fcommercial',['French_Colombier_Commercial',['../classPaperSize.html#a0c3744aab15a171ac1681788f7169ed8abf1434e9a53caf4e891365e714611d70',1,'PaperSize']]],
+  ['french_5fcoquille',['French_Coquille',['../classPaperSize.html#a0c3744aab15a171ac1681788f7169ed8a099b482905e4515a8e7cc095c842b28b',1,'PaperSize']]],
+  ['french_5fcouronne_5fecriture',['French_Couronne_ecriture',['../classPaperSize.html#a0c3744aab15a171ac1681788f7169ed8a71252b550f66b03ca45e2b25ca39ad3a',1,'PaperSize']]],
+  ['french_5fcouronne_5fedition',['French_Couronne_edition',['../classPaperSize.html#a0c3744aab15a171ac1681788f7169ed8af1cf5a15c50da619767664ba4ddd158b',1,'PaperSize']]],
+  ['french_5fdemi_5fraisin',['French_Demi_raisin',['../classPaperSize.html#a0c3744aab15a171ac1681788f7169ed8a004cef946e106c5e47c4d2d4587dea9b',1,'PaperSize']]],
+  ['french_5fdouble_5fraisin',['French_Double_Raisin',['../classPaperSize.html#a0c3744aab15a171ac1681788f7169ed8ac0a7431272d8a6c106cc6d17556e3d64',1,'PaperSize']]],
+  ['french_5fecu',['French_Ecu',['../classPaperSize.html#a0c3744aab15a171ac1681788f7169ed8afdc26ea3c08479e7480e3827699eea80',1,'PaperSize']]],
+  ['french_5fgrand_5faigle',['French_Grand_Aigle',['../classPaperSize.html#a0c3744aab15a171ac1681788f7169ed8a6083ac53ad6e4aefa8fd67996895b163',1,'PaperSize']]],
+  ['french_5fgrand_5fmonde',['French_Grand_Monde',['../classPaperSize.html#a0c3744aab15a171ac1681788f7169ed8a9203fd0d541babaad87608eb2492739c',1,'PaperSize']]],
+  ['french_5fjesus',['French_Jesus',['../classPaperSize.html#a0c3744aab15a171ac1681788f7169ed8ab8622f561633b6e7ce95d18394f5827c',1,'PaperSize']]],
+  ['french_5fpetit_5faigle',['French_Petit_Aigle',['../classPaperSize.html#a0c3744aab15a171ac1681788f7169ed8ae091a1b7281c362df896cb6640831741',1,'PaperSize']]],
+  ['french_5fpot_5fecolier',['French_Pot_ecolier',['../classPaperSize.html#a0c3744aab15a171ac1681788f7169ed8a26b2b2fbdfbc9f5637fe86891c8a2db6',1,'PaperSize']]],
+  ['french_5fraisin',['French_Raisin',['../classPaperSize.html#a0c3744aab15a171ac1681788f7169ed8a2fd853194be9580adcdb7d3cc52f2e07',1,'PaperSize']]],
+  ['french_5froberto',['French_Roberto',['../classPaperSize.html#a0c3744aab15a171ac1681788f7169ed8a0c5e1b9dbc12ae710bca17df4e1605d4',1,'PaperSize']]],
+  ['french_5fsoliel',['French_Soliel',['../classPaperSize.html#a0c3744aab15a171ac1681788f7169ed8a96fa834bd737f0059eb6a7d27964d043',1,'PaperSize']]],
+  ['french_5ftelliere',['French_Telliere',['../classPaperSize.html#a0c3744aab15a171ac1681788f7169ed8a189635448bf7cec6a6a2d6d6c7844b25',1,'PaperSize']]],
+  ['french_5funivers',['French_Univers',['../classPaperSize.html#a0c3744aab15a171ac1681788f7169ed8a68676358b3fcc3bb108080dd5b213c58',1,'PaperSize']]]
+];
